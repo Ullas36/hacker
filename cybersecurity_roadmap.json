@@ -1,0 +1,111 @@
+{
+    "roadmap": [
+        {
+            "module": "Cybersecurity Fundamentals",
+            "chapters": [
+                {
+                    "chapter_title": "Introduction to Cybersecurity",
+                    "duration": "1 week",
+                    "description": "Understanding core concepts like threats, vulnerabilities, and attacks.",
+                    "goal": "Define key cybersecurity terms and identify common attack vectors.",
+                    "resources": [
+                        "https://www.youtube.com/watch?v=C-i6g8_g3qU",
+                        "https://www.sans.org/cyber-security-resources"
+                    ],
+                    "mini_project": "Create a basic cybersecurity awareness poster highlighting common threats."
+                },
+                {
+                    "chapter_title": "Network Security",
+                    "duration": "2 weeks",
+                    "description": "Exploring network protocols, firewalls, intrusion detection systems (IDS), and VPNs.",
+                    "goal": "Explain how firewalls and IDS work and configure basic network security rules.",
+                    "resources": [
+                        "https://www.cloudflare.com/learning/ssl/what-is-a-firewall/",
+                        "https://www.youtube.com/watch?v=547_kM_V4qU"
+                    ],
+                    "mini_project": "Set up a basic home network with a firewall and configure port forwarding for a specific application."
+                },
+                {
+                    "chapter_title": "Operating System Security",
+                    "duration": "1 week",
+                    "description": "Learning about secure configurations, user management, and common vulnerabilities in operating systems.",
+                    "goal": "Identify common operating system vulnerabilities and apply best practices for secure configuration.",
+                    "resources": [
+                        "https://owasp.org/www-project-top-ten/"
+                    ],
+                    "mini_project": "Hardening a virtual machine's operating system by applying security patches and configuring user permissions."
+                }
+            ]
+        },
+        {
+            "module": "Web Application Security",
+            "chapters": [
+                {
+                    "chapter_title": "Introduction to Web Application Security",
+                    "duration": "1 week",
+                    "description": "Understanding common web application vulnerabilities like SQL injection, cross-site scripting (XSS), and authentication issues.",
+                    "goal": "Recognize the OWASP Top 10 vulnerabilities and their potential impact on web applications.",
+                    "resources": [
+                        "https://owasp.org/www-project-top-ten/"
+                    ],
+                    "mini_project": "Identify potential vulnerabilities in a simple web application and suggest mitigation strategies."
+                },
+                {
+                    "chapter_title": "Secure Coding Practices",
+                    "duration": "2 weeks",
+                    "description": "Learning secure coding practices in JavaScript and React to prevent common vulnerabilities.",
+                    "goal": "Write secure JavaScript code that minimizes the risk of common web application vulnerabilities.",
+                    "resources": [
+                        "https://portswigger.net/web-security/"
+                    ],
+                    "mini_project": "Build a secure login system in React that implements proper authentication and input validation techniques."
+                },
+                {
+                    "chapter_title": "Web Application Security Testing",
+                    "duration": "1 week",
+                    "description": "Exploring tools and techniques for testing web applications for vulnerabilities.",
+                    "goal": "Perform basic penetration testing on a web application using tools like Burp Suite or OWASP ZAP.",
+                    "resources": [
+                        "https://www.portswigger.net/web-security/"
+                    ],
+                    "mini_project": "Test a web application for common vulnerabilities using a web application security scanner and analyze the results."
+                }
+            ]
+        },
+        {
+            "module": "Cloud Security",
+            "chapters": [
+                {
+                    "chapter_title": "Introduction to Cloud Security",
+                    "duration": "1 week",
+                    "description": "Understanding the unique security challenges and best practices for cloud computing environments.",
+                    "goal": "Identify the shared responsibility model in cloud security and understand the role of cloud providers and users.",
+                    "resources": [
+                        "https://aws.amazon.com/security/whitepapers/"
+                    ],
+                    "mini_project": "Create a basic cloud security policy for a hypothetical cloud application."
+                },
+                {
+                    "chapter_title": "Cloud Security Services",
+                    "duration": "2 weeks",
+                    "description": "Exploring cloud security services like identity and access management (IAM), encryption, and security monitoring.",
+                    "goal": "Configure basic cloud security services like IAM and encryption for a cloud application.",
+                    "resources": [
+                        "https://cloud.google.com/security/"
+                    ],
+                    "mini_project": "Implement IAM policies to control access to resources in a cloud environment."
+                },
+                {
+                    "chapter_title": "Cloud Security Compliance",
+                    "duration": "1 week",
+                    "description": "Learning about industry-standard security compliance frameworks and regulations for cloud environments.",
+                    "goal": "Understand the requirements of common security compliance standards like ISO 27001 and HIPAA.",
+                    "resources": [
+                        "https://www.iso.org/iso-27001-information-security.html"
+                    ],
+                    "mini_project": "Analyze a cloud application's architecture and identify potential compliance gaps."
+                }
+            ]
+        }
+    ]
+}

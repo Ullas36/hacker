@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dynamic Level Creation</title>
+    <!-- Include Font Awesome for the check icon -->
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin-top: 50px;
+      }
+
+      #mainButton {
+        padding: 10px 20px;
+        font-size: 18px;
+        cursor: pointer;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        margin-bottom: 30px;
+      }
+
+      /* Container for levels */
+      #levelsContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+      }
+
+      .level {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background: gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        color: white;
+        margin-bottom: 40px;
+        position: relative;
+        transform: scale(0.5); /* Start small */
+        opacity: 0; /* Start invisible */
+        transition: opacity 0.5s ease, transform 0.5s ease;
+      }
+
+      .level.show {
+        transform: scale(1);
+        opacity: 1;
+      }
+
+      .level.completed {
+        background: linear-gradient(145deg, #58cc02, #46a601);
+      }
+
+      .level:hover {
+        transform: scale(1.1);
+      }
+
+      /* Connector line between levels */
+      .level::after {
+        content: "";
+        position: absolute;
+        width: 4px;
+        height: 150px;
+        background: #58cc02;
+        top: 120px;
+        left: 50%;
+        transform: translateX(-50%) scaleY(0);
+        transform-origin: top;
+        transition: transform 0.6s ease-out;
+        z-index: -1;
+      }
+
+      /* Animate connector line when .connected class added */
+      .level.connected::after {
+        transform: translateX(-50%) scaleY(1);
+      }
+    </style>
+  </head>
+
+  <body>
+    <button id="mainButton">Add New Level</button>
+
+    <div id="levelsContainer">
+      <!-- New levels will be added here -->
+    </div>
+
+    <script>
+      const mainButton = document.getElementById("mainButton");
+      const levelsContainer = document.getElementById("levelsContainer");
+
+      mainButton.addEventListener("click", () => {
+        const newLevel = document.createElement("div");
+        newLevel.className = "level completed"; // Add base classes
+
+        const icon = document.createElement("i");
+        icon.className = "fas fa-check"; // FontAwesome checkmark icon
+
+        newLevel.appendChild(icon);
+        levelsContainer.appendChild(newLevel);
+
+        // Trigger pop-in animation
+        setTimeout(() => {
+          newLevel.classList.add("show");
+        }, 50);
+
+        // Small delay to trigger connector line animation
+        setTimeout(() => {
+          newLevel.classList.add("connected");
+        }, 150); // slight offset from show animation
+      });
+    </script>
+  </body>
+</html>

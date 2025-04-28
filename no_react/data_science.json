@@ -1,0 +1,156 @@
+{
+    "roadmap": [
+        {
+            "module": "Data Science Fundamentals",
+            "chapters": [
+                {
+                    "chapter_title": "Introduction to Data Science",
+                    "duration": "1 week",
+                    "description": "Understand what data science is, its applications, and the data science lifecycle.",
+                    "goal": "Define data science and its key concepts.",
+                    "resources": [
+                        "https://www.youtube.com/watch?v=aircAruvnKk",
+                        "https://www.datacamp.com/community/tutorials/introduction-to-data-science"
+                    ],
+                    "mini_project": "Analyze a publicly available dataset (e.g., weather data) and visualize key trends."
+                },
+                {
+                    "chapter_title": "Data Types and Structures",
+                    "duration": "1 week",
+                    "description": "Learn about different data types (numerical, categorical, textual) and common data structures (arrays, lists, dictionaries).",
+                    "goal": "Differentiate data types and understand basic data structures.",
+                    "resources": [
+                        "https://www.freecodecamp.org/learn/scientific-computing-with-python/data-types-and-structures/",
+                        "https://www.w3schools.com/js/js_data_types.asp"
+                    ],
+                    "mini_project": "Create a program to categorize data points based on their type."
+                },
+                {
+                    "chapter_title": "Descriptive Statistics",
+                    "duration": "1 week",
+                    "description": "Explore measures of central tendency (mean, median, mode), dispersion (range, variance, standard deviation), and data visualization techniques.",
+                    "goal": "Calculate and interpret descriptive statistics.",
+                    "resources": [
+                        "https://www.youtube.com/watch?v=zLhK7C1y5hE",
+                        "https://towardsdatascience.com/understanding-descriptive-statistics-a-beginners-guide-2129b5477a35"
+                    ],
+                    "mini_project": "Calculate and visualize descriptive statistics for a dataset of your choice."
+                }
+            ]
+        },
+        {
+            "module": "Data Manipulation and Cleaning",
+            "chapters": [
+                {
+                    "chapter_title": "Data Wrangling with JavaScript",
+                    "duration": "2 weeks",
+                    "description": "Learn how to manipulate and clean data using JavaScript arrays, objects, and string manipulation techniques.",
+                    "goal": "Clean and transform data using JavaScript.",
+                    "resources": [
+                        "https://www.freecodecamp.org/learn/scientific-computing-with-python/data-cleaning/",
+                        "https://www.tutorialspoint.com/javascript/javascript_strings.htm"
+                    ],
+                    "mini_project": "Clean a messy dataset containing missing values and inconsistencies."
+                },
+                {
+                    "chapter_title": "Data Manipulation Libraries",
+                    "duration": "1 week",
+                    "description": "Explore popular data manipulation libraries in JavaScript (e.g., Dataframe.js, Lodash) and learn to perform advanced data transformations.",
+                    "goal": "Use libraries to efficiently manipulate data in JavaScript.",
+                    "resources": [
+                        "https://dataframejs.com/",
+                        "https://lodash.com/"
+                    ],
+                    "mini_project": "Analyze a dataset and generate new features using data manipulation libraries."
+                },
+                {
+                    "chapter_title": "Data Visualization with React",
+                    "duration": "1 week",
+                    "description": "Learn to create interactive and informative visualizations using React libraries (e.g., Chart.js, Recharts).",
+                    "goal": "Visualize data insights using React.",
+                    "resources": [
+                        "https://www.chartjs.org/",
+                        "https://recharts.org/"
+                    ],
+                    "mini_project": "Build a dashboard to visualize key metrics from a dataset."
+                }
+            ]
+        },
+        {
+            "module": "Machine Learning Fundamentals",
+            "chapters": [
+                {
+                    "chapter_title": "Introduction to Machine Learning",
+                    "duration": "1 week",
+                    "description": "Understand different types of machine learning (supervised, unsupervised, reinforcement) and common algorithms.",
+                    "goal": "Define machine learning types and key algorithms.",
+                    "resources": [
+                        "https://www.youtube.com/watch?v=aircAruvnKk",
+                        "https://www.coursera.org/learn/machine-learning"
+                    ],
+                    "mini_project": "Build a simple linear regression model to predict a variable."
+                },
+                {
+                    "chapter_title": "Supervised Learning Algorithms",
+                    "duration": "2 weeks",
+                    "description": "Dive into common supervised learning algorithms like linear regression, logistic regression, and decision trees.",
+                    "goal": "Implement and evaluate supervised learning algorithms.",
+                    "resources": [
+                        "https://www.kaggle.com/learn/linear-regression",
+                        "https://www.datacamp.com/courses/intro-to-logistic-regression"
+                    ],
+                    "mini_project": "Train a classification model to predict customer churn."
+                },
+                {
+                    "chapter_title": "Unsupervised Learning Algorithms",
+                    "duration": "1 week",
+                    "description": "Explore unsupervised learning algorithms like k-means clustering and dimensionality reduction techniques (PCA).",
+                    "goal": "Apply unsupervised learning algorithms for data exploration and pattern recognition.",
+                    "resources": [
+                        "https://www.youtube.com/watch?v=6cAw665qRvc",
+                        "https://towardsdatascience.com/pca-explained-with-python-a-simple-guide-for-beginners-7b2486e0878f"
+                    ],
+                    "mini_project": "Cluster customers based on their purchasing behavior using k-means."
+                }
+            ]
+        },
+        {
+            "module": "Data Science Tools and Libraries",
+            "chapters": [
+                {
+                    "chapter_title": "Introduction to Python for Data Science",
+                    "duration": "2 weeks",
+                    "description": "Learn the fundamentals of Python programming and key data science libraries like NumPy, Pandas, and Matplotlib.",
+                    "goal": "Perform basic data analysis and visualization using Python.",
+                    "resources": [
+                        "https://www.datacamp.com/courses/intro-to-python-for-data-science",
+                        "https://www.youtube.com/watch?v=rfscVS0vtbw"
+                    ],
+                    "mini_project": "Analyze a dataset using Python and create a visualization of key findings."
+                },
+                {
+                    "chapter_title": "Deep Learning Libraries",
+                    "duration": "1 week",
+                    "description": "Explore popular deep learning libraries like TensorFlow or PyTorch and understand their functionalities.",
+                    "goal": "Get familiar with deep learning frameworks.",
+                    "resources": [
+                        "https://www.tensorflow.org/",
+                        "https://pytorch.org/"
+                    ],
+                    "mini_project": "Build a simple neural network using a deep learning library."
+                },
+                {
+                    "chapter_title": "Cloud Computing for Data Science",
+                    "duration": "1 week",
+                    "description": "Understand the basics of cloud computing platforms (e.g., AWS, GCP) and their relevance to data science.",
+                    "goal": "Explore cloud resources for data science projects.",
+                    "resources": [
+                        "https://aws.amazon.com/getting-started/",
+                        "https://cloud.google.com/products"
+                    ],
+                    "mini_project": "Deploy a simple data analysis script on a cloud platform."
+                }
+            ]
+        }
+    ]
+}

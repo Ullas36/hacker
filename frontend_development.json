@@ -1,0 +1,144 @@
+{
+    "roadmap": [
+        {
+            "module": "HTML, CSS, and Basic JavaScript",
+            "chapters": [
+                {
+                    "chapter_title": "HTML Fundamentals",
+                    "duration": "1 week",
+                    "description": "Learn the structure and elements of HTML.",
+                    "goal": "Build a simple webpage with basic HTML elements.",
+                    "resources": [
+                        "https://www.w3schools.com/html/"
+                    ],
+                    "mini_project": "Create a personal landing page with sections for about, skills, and projects."
+                },
+                {
+                    "chapter_title": "CSS Styling",
+                    "duration": "1 week",
+                    "description": "Master CSS selectors, properties, and techniques for styling web pages.",
+                    "goal": "Style the landing page created in the previous chapter.",
+                    "resources": [
+                        "https://www.w3schools.com/css/"
+                    ],
+                    "mini_project": "Design a visually appealing navigation bar and apply it to the landing page."
+                },
+                {
+                    "chapter_title": "Introduction to JavaScript",
+                    "duration": "2 weeks",
+                    "description": "Learn JavaScript syntax, variables, data types, operators, and control flow.",
+                    "goal": "Add interactive elements to the landing page using JavaScript.",
+                    "resources": [
+                        "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/"
+                    ],
+                    "mini_project": "Implement a simple form validation on the landing page."
+                }
+            ]
+        },
+        {
+            "module": "React Fundamentals",
+            "chapters": [
+                {
+                    "chapter_title": "React Basics",
+                    "duration": "2 weeks",
+                    "description": "Understand React components, JSX, props, state, and lifecycle methods.",
+                    "goal": "Build a basic React application with multiple components.",
+                    "resources": [
+                        "https://reactjs.org/docs/getting-started.html"
+                    ],
+                    "mini_project": "Create a simple todo list application using React components."
+                },
+                {
+                    "chapter_title": "Hooks and State Management",
+                    "duration": "2 weeks",
+                    "description": "Learn about React hooks like useState, useEffect, and useContext for managing state and side effects.",
+                    "goal": "Refactor the todo list application using hooks for improved state management.",
+                    "resources": [
+                        "https://reactjs.org/docs/hooks-intro.html"
+                    ],
+                    "mini_project": "Add user authentication functionality to the todo list application using a simple state management solution."
+                },
+                {
+                    "chapter_title": "Routing and Navigation",
+                    "duration": "1 week",
+                    "description": "Implement navigation and routing in React applications using libraries like React Router.",
+                    "goal": "Create multiple pages and navigate between them using React Router.",
+                    "resources": [
+                        "https://reactrouter.com/en/main"
+                    ],
+                    "mini_project": "Integrate React Router into the todo list application to create separate pages for adding, editing, and deleting tasks."
+                }
+            ]
+        },
+        {
+            "module": "Advanced React Concepts and Tools",
+            "chapters": [
+                {
+                    "chapter_title": "Data Fetching and APIs",
+                    "duration": "2 weeks",
+                    "description": "Learn how to fetch data from APIs and display it in React applications.",
+                    "goal": "Build a weather app that fetches data from a weather API.",
+                    "resources": [
+                        "https://fetch.spec.whatwg.org/"
+                    ],
+                    "mini_project": "Create a news app that fetches and displays news articles from a public API."
+                },
+                {
+                    "chapter_title": "Testing React Applications",
+                    "duration": "1 week",
+                    "description": "Understand different testing techniques for React applications and learn to write unit and integration tests.",
+                    "goal": "Write unit tests for the weather app and news app.",
+                    "resources": [
+                        "https://jestjs.io/docs/getting-started"
+                    ],
+                    "mini_project": "Implement end-to-end testing for the news app using a testing framework like Cypress."
+                },
+                {
+                    "chapter_title": "Deployment and Hosting",
+                    "duration": "1 week",
+                    "description": "Learn how to deploy React applications to various hosting platforms.",
+                    "goal": "Deploy the news app to a cloud hosting platform like Netlify or Vercel.",
+                    "resources": [
+                        "https://www.netlify.com/docs/"
+                    ],
+                    "mini_project": "Set up continuous integration and continuous deployment (CI/CD) for the deployed news app."
+                }
+            ]
+        },
+        {
+            "module": "Frontend Development Best Practices and Portfolio Building",
+            "chapters": [
+                {
+                    "chapter_title": "Code Style and Maintainability",
+                    "duration": "1 week",
+                    "description": "Learn best practices for writing clean, readable, and maintainable code.",
+                    "goal": "Refactor the deployed news app to follow best coding practices.",
+                    "resources": [
+                        "https://eslint.org/"
+                    ],
+                    "mini_project": "Write documentation for the news app's codebase."
+                },
+                {
+                    "chapter_title": "Performance Optimization",
+                    "duration": "1 week",
+                    "description": "Understand techniques for optimizing React application performance.",
+                    "goal": "Improve the loading speed and responsiveness of the news app.",
+                    "resources": [
+                        "https://reactjs.org/docs/optimizing-performance.html"
+                    ],
+                    "mini_project": "Implement lazy loading for components in the news app."
+                },
+                {
+                    "chapter_title": "Portfolio Development",
+                    "duration": "2 weeks",
+                    "description": "Build a portfolio website to showcase your skills and projects.",
+                    "goal": "Create a professional portfolio website highlighting your React projects.",
+                    "resources": [
+                        "https://www.smashingmagazine.com/2021/05/build-react-portfolio/"
+                    ],
+                    "mini_project": "Design and develop a portfolio website showcasing the news app and other React projects."
+                }
+            ]
+        }
+    ]
+}

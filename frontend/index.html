@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Generative Roadmaps</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- FontAwesome -->
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="logo">RoadMaps...</div>
+      <div class="nav-items">
+        <div class="coins">🏅 1234 XP</div>
+        <div class="profile">👤</div>
+      </div>
+    </header>
+
+    <aside class="sidebar">
+      <ul>
+        <li>🏠 Home</li>
+        <li>🏆 Leaderboard</li>
+        <li>🛒 Shop</li>
+        <li>⚙️ Settings</li>
+      </ul>
+    </aside>
+
+    <main class="level-map">
+      <div id="modulesContainer"></div>
+
+      <section class="path">
+        <div class="level completed">
+          <i class="fas fa-check"></i>
+        </div>
+        <div class="level unlocked">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="level locked">
+          <i class="fas fa-lock"></i>
+        </div>
+        <div class="level locked">
+          <i class="fas fa-lock"></i>
+        </div>
+        <div class="level locked">
+          <i class="fas fa-star"></i>
+        </div>
+      </section>
+    </main>
+    <script src="dynamic.js">
+      document.addEventListener("DOMContentLoaded", function () {
+        const levels = document.querySelectorAll(".level");
+        levels.forEach((level, index) => {
+          setTimeout(() => {
+            level.classList.add("visible");
+          }, index * 300); // Delay between levels
+        });
+      });
+    </script>
+  </body>
+</html>

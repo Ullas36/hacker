@@ -1,0 +1,157 @@
+{
+    "roadmap": [
+        {
+            "module": "Cybersecurity Fundamentals",
+            "chapters": [
+                {
+                    "chapter_title": "Introduction to Cybersecurity",
+                    "duration": "1 week",
+                    "description": "Explore the history, concepts, and threats in cybersecurity.",
+                    "goal": "Understand basic cybersecurity terminology and principles.",
+                    "resources": [
+                        "https://www.youtube.com/playlist?list=PL8dPuuaLjXtPHzzYuWy6fYEaX9mQQ8oGr",
+                        "https://www.sans.org/cyber-security-resources/"
+                    ],
+                    "mini_project": "Create a basic personal cybersecurity checklist."
+                },
+                {
+                    "chapter_title": "Types of Cyber Threats",
+                    "duration": "1 week",
+                    "description": "Learn about malware, phishing, social engineering, and other common threats.",
+                    "goal": "Identify and describe various types of cyberattacks.",
+                    "resources": [
+                        "https://www.cisa.gov/uscert/ncas/tips",
+                        "https://owasp.org/www-project-top-ten/"
+                    ],
+                    "mini_project": "Design a phishing awareness campaign for your friends and family."
+                },
+                {
+                    "chapter_title": "Security Principles and Best Practices",
+                    "duration": "1 week",
+                    "description": "Explore core security principles like confidentiality, integrity, and availability.",
+                    "goal": "Apply fundamental security best practices in daily life.",
+                    "resources": [
+                        "https://www.NIST.gov/publications/detail/800-53",
+                        "https://www.sans.org/reading-room/whitepapers/security-awareness/security-awareness-training-program-1884"
+                    ],
+                    "mini_project": "Conduct a security audit of your personal devices and accounts."
+                }
+            ]
+        },
+        {
+            "module": "Network Security",
+            "chapters": [
+                {
+                    "chapter_title": "Network Fundamentals",
+                    "duration": "1 week",
+                    "description": "Understand basic networking concepts like TCP/IP, OSI model, and common protocols.",
+                    "goal": "Grasp the basics of how networks function.",
+                    "resources": [
+                        "https://www.youtube.com/watch?v=dN88nWvDld8",
+                        "https://docs.linuxfoundation.org/networking/networking-fundamentals/"
+                    ],
+                    "mini_project": "Set up a basic network topology with virtual machines."
+                },
+                {
+                    "chapter_title": "Firewalls and Intrusion Detection Systems (IDS)",
+                    "duration": "1 week",
+                    "description": "Learn how firewalls and IDS protect networks from unauthorized access and malicious activity.",
+                    "goal": "Configure basic firewall rules and understand IDS functionalities.",
+                    "resources": [
+                        "https://www.cloudflare.com/learning/firewalls/",
+                        "https://www.imperva.com/learn/application-security/intrusion-detection-system/"
+                    ],
+                    "mini_project": "Set up a basic firewall using open-source software."
+                },
+                {
+                    "chapter_title": "Network Security Tools",
+                    "duration": "1 week",
+                    "description": "Explore popular network security tools like Nmap, Wireshark, and Metasploit.",
+                    "goal": "Gain hands-on experience with network security tools.",
+                    "resources": [
+                        "https://nmap.org/",
+                        "https://www.wireshark.org/",
+                        "https://www.metasploit.com/"
+                    ],
+                    "mini_project": "Perform a port scan on a target system using Nmap."
+                }
+            ]
+        },
+        {
+            "module": "Application Security",
+            "chapters": [
+                {
+                    "chapter_title": "OWASP Top 10 Vulnerabilities",
+                    "duration": "1 week",
+                    "description": "Learn about the most common web application vulnerabilities.",
+                    "goal": "Identify and understand the OWASP Top 10 vulnerabilities.",
+                    "resources": [
+                        "https://owasp.org/www-project-top-ten/",
+                        "https://portswigger.net/web-security"
+                    ],
+                    "mini_project": "Analyze a simple web application for potential vulnerabilities."
+                },
+                {
+                    "chapter_title": "Secure Coding Practices",
+                    "duration": "1 week",
+                    "description": "Learn best practices for writing secure code in JavaScript and React.",
+                    "goal": "Develop secure coding habits and avoid common vulnerabilities.",
+                    "resources": [
+                        "https://owasp.org/www-project-javascript-security-cheatsheet/",
+                        "https://reactjs.org/docs/security.html"
+                    ],
+                    "mini_project": "Build a secure login system using React."
+                },
+                {
+                    "chapter_title": "Authentication and Authorization",
+                    "duration": "1 week",
+                    "description": "Understand different authentication methods and authorization mechanisms.",
+                    "goal": "Implement secure authentication and authorization systems.",
+                    "resources": [
+                        "https://auth0.com/blog/authentication-vs-authorization/",
+                        "https://jwt.io/"
+                    ],
+                    "mini_project": "Implement JWT-based authentication in a React application."
+                }
+            ]
+        },
+        {
+            "module": "Cryptography & Data Security",
+            "chapters": [
+                {
+                    "chapter_title": "Introduction to Cryptography",
+                    "duration": "1 week",
+                    "description": "Learn about encryption algorithms, hashing functions, and digital signatures.",
+                    "goal": "Understand the basics of cryptography and its applications in cybersecurity.",
+                    "resources": [
+                        "https://www.youtube.com/playlist?list=PL288A18B00284F497",
+                        "https://crypto.stanford.edu/"
+                    ],
+                    "mini_project": "Encrypt a simple message using a basic encryption algorithm."
+                },
+                {
+                    "chapter_title": "Symmetric and Asymmetric Encryption",
+                    "duration": "1 week",
+                    "description": "Explore symmetric and asymmetric encryption algorithms and their use cases.",
+                    "goal": "Differentiate between symmetric and asymmetric encryption and their advantages/disadvantages.",
+                    "resources": [
+                        "https://www.freecodecamp.org/news/a-beginners-guide-to-cryptography/",
+                        "https://www.schneier.com/blog/archives/2013/03/asymetric_cryp.html"
+                    ],
+                    "mini_project": "Implement a simple symmetric encryption algorithm in JavaScript."
+                },
+                {
+                    "chapter_title": "Data Security and Privacy",
+                    "duration": "1 week",
+                    "description": "Learn about data encryption at rest and in transit, data loss prevention, and privacy regulations.",
+                    "goal": "Understand the principles of data security and privacy.",
+                    "resources": [
+                        "https://www.cloudflare.com/learning/security/tls-encryption/",
+                        "https://www.gdpr.eu/"
+                    ],
+                    "mini_project": "Research and present on a specific data privacy regulation (e.g., GDPR, CCPA)."
+                }
+            ]
+        }
+    ]
+}

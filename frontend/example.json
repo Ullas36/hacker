@@ -1,0 +1,156 @@
+{
+  "roadmap": [
+    {
+      "module": "Cybersecurity Foundations",
+      "chapters": [
+        {
+          "chapter_title": "Introduction to Cybersecurity",
+          "duration": "1 week",
+          "description": "Overview of cybersecurity concepts, threats, vulnerabilities, and principles.",
+          "goal": "Understand the basics of cybersecurity and its importance.",
+          "resources": [
+            "https://www.youtube.com/watch?v=j8qS-X6Z_20",
+            "https://owasp.org/www-project-top-ten/",
+            "https://www.sans.org/reading-room/whitepapers/cybersecurity"
+          ],
+          "mini_project": "Create a personal cybersecurity checklist."
+        },
+        {
+          "chapter_title": "Network Security",
+          "duration": "2 weeks",
+          "description": "Learn about network protocols, firewalls, intrusion detection systems, and network security best practices.",
+          "goal": "Understand how networks are secured and how to protect them from attacks.",
+          "resources": [
+            "https://www.cloudflare.com/learning/ddos/what-is-a-ddos-attack/",
+            "https://www.cisco.com/c/en/us/products/security/firewalls/what-is-a-firewall.html",
+            "https://www.geeksforgeeks.org/network-security/"
+          ],
+          "mini_project": "Set up a basic firewall on your home network."
+        },
+        {
+          "chapter_title": "Cryptography",
+          "duration": "2 weeks",
+          "description": "Explore encryption algorithms, hashing techniques, digital signatures, and their applications in cybersecurity.",
+          "goal": "Understand the principles of cryptography and how it is used to secure data.",
+          "resources": [
+            "https://www.youtube.com/watch?v=q9c9uKq1vT8",
+            "https://www.freecodecamp.org/news/what-is-cryptography-and-how-does-it-work/",
+            "https://www.ibm.com/cloud/learn/cryptography"
+          ],
+          "mini_project": "Implement a simple encryption/decryption algorithm in JavaScript."
+        }
+      ]
+    },
+    {
+      "module": "Application Security",
+      "chapters": [
+        {
+          "chapter_title": "Web Application Security",
+          "duration": "2 weeks",
+          "description": "Learn about common web application vulnerabilities (e.g., SQL injection, cross-site scripting), prevention techniques, and secure coding practices.",
+          "goal": "Understand how to build secure web applications and protect them from attacks.",
+          "resources": [
+            "https://portswigger.net/web-security",
+            "https://owasp.org/www-project-top-ten/",
+            "https://www.youtube.com/watch?v=O7h9YFx793g"
+          ],
+          "mini_project": "Identify and fix security vulnerabilities in a simple web application."
+        },
+        {
+          "chapter_title": "API Security",
+          "duration": "2 weeks",
+          "description": "Learn about API security best practices, authentication mechanisms, authorization techniques, and common API vulnerabilities.",
+          "goal": "Understand how to secure APIs and protect them from unauthorized access and attacks.",
+          "resources": [
+            "https://developer.mozilla.org/en-US/docs/Learn/API/API_Security",
+            "https://auth0.com/blog/api-security-best-practices/",
+            "https://www.youtube.com/watch?v=1h893n96D9U"
+          ],
+          "mini_project": "Implement API authentication and authorization using JWT."
+        },
+        {
+          "chapter_title": "React Security",
+          "duration": "2 weeks",
+          "description": "Learn about specific security considerations when developing React applications, including state management, data validation, and preventing vulnerabilities like XSS and CSRF.",
+          "goal": "Build secure React applications and avoid common security pitfalls.",
+          "resources": [
+            "https://reactjs.org/docs/security.html",
+            "https://www.npmjs.com/package/react-helmet",
+            "https://www.youtube.com/watch?v=85v7b0l6k7M"
+          ],
+          "mini_project": "Build a secure React application with user authentication."
+        }
+      ]
+    },
+    {
+      "module": "Incident Response and Forensics",
+      "chapters": [
+        {
+          "chapter_title": "Incident Response Process",
+          "duration": "1 week",
+          "description": "Learn about the phases of incident response (preparation, detection, containment, eradication, recovery, and post-incident review).",
+          "goal": "Understand the steps involved in responding to a cybersecurity incident.",
+          "resources": [
+            "https://www.nist.gov/cyberframework/framework-core",
+            "https://www.sans.org/reading-room/whitepapers/incident-response/incident-response-the-book-everything-you-need-know-30410",
+            "https://www.youtube.com/watch?v=uT23Z9P5X5U"
+          ],
+          "mini_project": "Develop an incident response plan for your home network."
+        },
+        {
+          "chapter_title": "Digital Forensics",
+          "duration": "2 weeks",
+          "description": "Learn about digital forensics techniques, evidence collection, analysis, and reporting.",
+          "goal": "Understand how to investigate cybersecurity incidents and gather evidence.",
+          "resources": [
+            "https://www.sans.org/cyber-security-courses/digital-forensics/",
+            "https://www.youtube.com/watch?v=h0Qp67l2J1Q",
+            "https://www.forensicfocus.com/"
+          ],
+          "mini_project": "Simulate a data breach and practice evidence collection techniques."
+        }
+      ]
+    },
+    {
+      "module": "Ethical Hacking and Penetration Testing",
+      "chapters": [
+        {
+          "chapter_title": "Introduction to Ethical Hacking",
+          "duration": "1 week",
+          "description": "Learn about the ethical principles of hacking, different types of penetration testing, and legal considerations.",
+          "goal": "Understand the purpose and scope of ethical hacking.",
+          "resources": [
+            "https://www.youtube.com/watch?v=7qK619t8G6I",
+            "https://www.offensive-security.com/",
+            "https://www.sans.org/cyber-security-courses/penetration-testing/"
+          ],
+          "mini_project": "Set up a vulnerable virtual machine for practice."
+        },
+        {
+          "chapter_title": "Network Scanning and Enumeration",
+          "duration": "2 weeks",
+          "description": "Learn about network scanning tools (e.g., Nmap), port scanning, banner grabbing, and other techniques for gathering information about a target network.",
+          "goal": "Develop skills in network reconnaissance and identifying potential vulnerabilities.",
+          "resources": [
+            "https://nmap.org/",
+            "https://www.youtube.com/watch?v=z1y4wD6l20g",
+            "https://www.pentest-training.com/"
+          ],
+          "mini_project": "Scan your own network for open ports and services."
+        },
+        {
+          "chapter_title": "Web Application Exploitation",
+          "duration": "2 weeks",
+          "description": "Learn about common web application vulnerabilities (e.g., SQL injection, cross-site scripting) and techniques for exploiting them using tools like Burp Suite.",
+          "goal": "Develop skills in identifying and exploiting web application vulnerabilities.",
+          "resources": [
+            "https://portswigger.net/burp",
+            "https://www.youtube.com/watch?v=lJ21D1b_814",
+            "https://owasp.org/www-project-top-ten/"
+          ],
+          "mini_project": "Attempt to exploit a vulnerable web application (in a safe and ethical environment)."
+        }
+      ]
+    }
+  ]
+}

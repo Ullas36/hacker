@@ -1,0 +1,198 @@
+{
+    "roadmap": [
+        {
+            "module": "Cybersecurity Fundamentals",
+            "chapters": [
+                {
+                    "chapter_title": "Introduction to Cybersecurity",
+                    "duration": "1 week",
+                    "description": "Understand core concepts, threats, and types of attacks.",
+                    "goal": "Define key cybersecurity terms and identify common cyber threats.",
+                    "resources": [
+                        "https://www.sans.org/cyber-security-awareness-training/",
+                        "https://www.nist.gov/cyberframework"
+                    ],
+                    "mini_project": "Create a cybersecurity awareness poster highlighting common threats."
+                },
+                {
+                    "chapter_title": "Network Security",
+                    "duration": "2 weeks",
+                    "description": "Explore network protocols, firewalls, intrusion detection systems, and VPNs.",
+                    "goal": "Explain how firewalls and other network security tools function.",
+                    "resources": [
+                        "https://www.cloudflare.com/learning/ssl/what-is-a-firewall/",
+                        "https://www.cisco.com/c/en/us/products/security/firewalls/what-is-a-firewall.html"
+                    ],
+                    "mini_project": "Configure a basic firewall rule on a virtual network."
+                },
+                {
+                    "chapter_title": "Operating System Security",
+                    "duration": "1 week",
+                    "description": "Learn about hardening techniques, user permissions, and common vulnerabilities.",
+                    "goal": "Implement basic security best practices on a Linux or Windows system.",
+                    "resources": [
+                        "https://owasp.org/www-project-top-ten/"
+                    ],
+                    "mini_project": "Hardening a virtual machine by disabling unnecessary services and configuring user permissions."
+                }
+            ]
+        },
+        {
+            "module": "Web Application Security",
+            "chapters": [
+                {
+                    "chapter_title": "Introduction to Web Application Security",
+                    "duration": "1 week",
+                    "description": "Understand OWASP Top 10 vulnerabilities and how to prevent them.",
+                    "goal": "Identify common web application vulnerabilities.",
+                    "resources": [
+                        "https://owasp.org/www-project-top-ten/"
+                    ],
+                    "mini_project": "Analyze a simple web application for potential vulnerabilities."
+                },
+                {
+                    "chapter_title": "Cross-Site Scripting (XSS)",
+                    "duration": "2 weeks",
+                    "description": "Learn about different types of XSS attacks and how to protect against them.",
+                    "goal": "Implement XSS prevention techniques in web applications.",
+                    "resources": [
+                        "https://portswigger.net/web-security/csrf"
+                    ],
+                    "mini_project": "Build a basic web application and implement XSS prevention measures."
+                },
+                {
+                    "chapter_title": "SQL Injection",
+                    "duration": "2 weeks",
+                    "description": "Understand SQL injection vulnerabilities and learn how to prevent them.",
+                    "goal": "Implement SQL injection prevention techniques in web applications.",
+                    "resources": [
+                        "https://sqltutorial.org/"
+                    ],
+                    "mini_project": "Build a web application with a database and implement SQL injection prevention measures."
+                }
+            ]
+        },
+        {
+            "module": "Security Tools and Technologies",
+            "chapters": [
+                {
+                    "chapter_title": "Introduction to Security Tools",
+                    "duration": "1 week",
+                    "description": "Explore common security tools like Nmap, Wireshark, and Metasploit.",
+                    "goal": "Understand the purpose and functionality of basic security tools.",
+                    "resources": [
+                        "https://nmap.org/",
+                        "https://www.wireshark.org/",
+                        "https://www.metasploit.com/"
+                    ],
+                    "mini_project": "Use Nmap to scan a simple network for open ports."
+                },
+                {
+                    "chapter_title": "Packet Analysis with Wireshark",
+                    "duration": "2 weeks",
+                    "description": "Learn to analyze network traffic using Wireshark.",
+                    "goal": "Identify protocols, analyze packets, and troubleshoot network issues.",
+                    "resources": [
+                        "https://www.wireshark.org/docs/wsug_html_chunked/"
+                    ],
+                    "mini_project": "Analyze network traffic and identify suspicious activities."
+                },
+                {
+                    "chapter_title": "Vulnerability Scanning",
+                    "duration": "1 week",
+                    "description": "Learn about vulnerability scanners and how to perform scans.",
+                    "goal": "Identify vulnerabilities in systems and applications.",
+                    "resources": [
+                        "https://www.tenable.com/"
+                    ],
+                    "mini_project": "Perform a vulnerability scan on a virtual machine."
+                }
+            ]
+        },
+        {
+            "module": "Ethical Hacking",
+            "chapters": [
+                {
+                    "chapter_title": "Introduction to Ethical Hacking",
+                    "duration": "1 week",
+                    "description": "Understand the principles and methodologies of ethical hacking.",
+                    "goal": "Define ethical hacking and its role in cybersecurity.",
+                    "resources": [
+                        "https://www.comptia.org/certifications/security/penetration-testing+"
+                    ],
+                    "mini_project": "Create a basic penetration testing plan."
+                },
+                {
+                    "chapter_title": "Reconnaissance and Scanning",
+                    "duration": "2 weeks",
+                    "description": "Learn about reconnaissance techniques and network scanning tools.",
+                    "goal": "Gather information about target systems and identify vulnerabilities.",
+                    "resources": [
+                        "https://pentestlab.blog/"
+                    ],
+                    "mini_project": "Perform reconnaissance on a target network and identify potential vulnerabilities."
+                },
+                {
+                    "chapter_title": "Exploitation and Post-Exploitation",
+                    "duration": "2 weeks",
+                    "description": "Explore common vulnerabilities and learn how to exploit them.",
+                    "goal": "Understand how to exploit vulnerabilities and gain access to systems.",
+                    "resources": [
+                        "https://www.offensive-security.com/"
+                    ],
+                    "mini_project": "Simulate a basic exploitation scenario using a vulnerable web application."
+                }
+            ]
+        },
+        {
+            "module": "JavaScript and React for Security Applications",
+            "chapters": [
+                {
+                    "chapter_title": "JavaScript Fundamentals",
+                    "duration": "2 weeks",
+                    "description": "Learn the basics of JavaScript syntax, data types, and control flow.",
+                    "goal": "Write basic JavaScript code.",
+                    "resources": [
+                        "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                    ],
+                    "mini_project": "Build a simple JavaScript calculator."
+                },
+                {
+                    "chapter_title": "React Fundamentals",
+                    "duration": "2 weeks",
+                    "description": "Learn the basics of React, including components, props, and state.",
+                    "goal": "Build simple React applications.",
+                    "resources": [
+                        "https://reactjs.org/"
+                    ],
+                    "mini_project": "Build a basic React todo list application."
+                },
+                {
+                    "chapter_title": "Security in JavaScript and React",
+                    "duration": "1 week",
+                    "description": "Learn about common security vulnerabilities in JavaScript and React applications.",
+                    "goal": "Implement secure coding practices in JavaScript and React applications.",
+                    "resources": [
+                        "https://owasp.org/www-project-javascript-security-cheatsheet/"
+                    ],
+                    "mini_project": "Identify and fix security vulnerabilities in a basic React application."
+                }
+            ]
+        },
+        {
+            "module": "Certification Preparation",
+            "chapters": [
+                {
+                    "chapter_title": "CompTIA Security+",
+                    "duration": "4 weeks",
+                    "description": "Prepare for the CompTIA Security+ certification exam.",
+                    "goal": "Pass the CompTIA Security+ exam.",
+                    "resources": [
+                        "https://www.comptia.org/certifications/security"
+                    ],
+                    "mini_project": "Complete practice exams and labs for the CompTIA Security+ exam."
+                }
+            ]
+        }
+    ]
+}

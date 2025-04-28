@@ -1,0 +1,194 @@
+{
+    "roadmap": [
+        {
+            "module": "Game Development Fundamentals",
+            "chapters": [
+                {
+                    "chapter_title": "Introduction to Game Development",
+                    "duration": "1 week",
+                    "description": "Explore the history, genres, and key concepts of game development.",
+                    "goal": "Understand the basics of game design and development.",
+                    "resources": [
+                        "https://www.youtube.com/playlist?list=PLPV2KyIb3j0r94U91_K3h3Z2v2k23c17M",
+                        "https://gamedevelopment.tutsplus.com/articles/game-development-for-beginners-a-guide-to-getting-started--cms-31307"
+                    ],
+                    "mini_project": "Design a simple game concept and create a basic flowchart."
+                },
+                {
+                    "chapter_title": "Game Engines and Tools",
+                    "duration": "1 week",
+                    "description": "Learn about popular game engines like Phaser and PixiJS, and explore essential development tools.",
+                    "goal": "Choose a suitable game engine and become familiar with its interface and functionalities.",
+                    "resources": [
+                        "https://phaser.io/tutorials",
+                        "https://pixijs.com/examples/"
+                    ],
+                    "mini_project": "Set up a new project in Phaser/PixiJS and experiment with basic shapes and animations."
+                },
+                {
+                    "chapter_title": "Game Logic and Mechanics",
+                    "duration": "2 weeks",
+                    "description": "Dive into game loops, input handling, collision detection, and other core game mechanics.",
+                    "goal": "Understand how games work behind the scenes and implement basic game logic.",
+                    "resources": [
+                        "https://www.youtube.com/watch?v=8_qT8rK61sE",
+                        "https://gamedevelopment.tutsplus.com/tutorials/game-development-fundamentals-game-loop--cms-31309"
+                    ],
+                    "mini_project": "Create a simple game with basic movement, collision, and scoring."
+                }
+            ]
+        },
+        {
+            "module": "JavaScript for Game Development",
+            "chapters": [
+                {
+                    "chapter_title": "JavaScript Fundamentals",
+                    "duration": "2 weeks",
+                    "description": "Learn the basics of JavaScript syntax, data types, variables, functions, and control flow.",
+                    "goal": "Build a solid foundation in JavaScript programming.",
+                    "resources": [
+                        "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/",
+                        "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                    ],
+                    "mini_project": "Create a simple interactive web page using JavaScript."
+                },
+                {
+                    "chapter_title": "DOM Manipulation",
+                    "duration": "1 week",
+                    "description": "Understand how to interact with and modify the Document Object Model (DOM) to create dynamic game elements.",
+                    "goal": "Manipulate game elements and respond to user interactions using JavaScript.",
+                    "resources": [
+                        "https://www.w3schools.com/js/js_htmldom.asp",
+                        "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction"
+                    ],
+                    "mini_project": "Build a simple game that updates the display based on user input."
+                },
+                {
+                    "chapter_title": "Event Handling",
+                    "duration": "1 week",
+                    "description": "Learn how to handle events like mouse clicks, key presses, and touch interactions to control game logic.",
+                    "goal": "Create responsive games that react to user input.",
+                    "resources": [
+                        "https://www.w3schools.com/js/js_htmlevent.asp",
+                        "https://developer.mozilla.org/en-US/docs/Web/Events"
+                    ],
+                    "mini_project": "Implement a basic game control system using event handling."
+                }
+            ]
+        },
+        {
+            "module": "React for Game Development",
+            "chapters": [
+                {
+                    "chapter_title": "Introduction to React",
+                    "duration": "2 weeks",
+                    "description": "Learn the fundamentals of React, including components, props, state, and JSX.",
+                    "goal": "Understand the basics of building user interfaces with React.",
+                    "resources": [
+                        "https://reactjs.org/tutorial/tutorial.html",
+                        "https://www.udemy.com/course/react-for-beginners-and-beyond/"
+                    ],
+                    "mini_project": "Create a simple React application with interactive components."
+                },
+                {
+                    "chapter_title": "React Hooks",
+                    "duration": "1 week",
+                    "description": "Explore React Hooks like useState and useEffect to manage state and side effects within components.",
+                    "goal": "Use Hooks to build more complex and dynamic game interfaces.",
+                    "resources": [
+                        "https://reactjs.org/docs/hooks-intro.html",
+                        "https://www.youtube.com/watch?v=Z6o-e69k7sE"
+                    ],
+                    "mini_project": "Build a React game component with state management using useState."
+                },
+                {
+                    "chapter_title": "React and Game Engines",
+                    "duration": "1 week",
+                    "description": "Integrate React with a game engine like Phaser or PixiJS to build interactive game interfaces.",
+                    "goal": "Combine the power of React and game engines to create visually appealing and responsive games.",
+                    "resources": [
+                        "https://phaser.io/examples/v3/games/react-example",
+                        "https://pixijs.com/examples/"
+                    ],
+                    "mini_project": "Create a simple React game interface that interacts with a Phaser/PixiJS game."
+                }
+            ]
+        },
+        {
+            "module": "Advanced Game Development Concepts",
+            "chapters": [
+                {
+                    "chapter_title": "Game AI",
+                    "duration": "2 weeks",
+                    "description": "Learn about different AI techniques and algorithms used in game development, such as pathfinding, decision-making, and behavior trees.",
+                    "goal": "Implement basic AI behaviors for game characters and enemies.",
+                    "resources": [
+                        "https://www.youtube.com/playlist?list=PLPV2KyIb3j0r94U91_K3h3Z2v2k23c17M",
+                        "https://gamedevelopment.tutsplus.com/tutorials/game-development-fundamentals-ai-pathfinding--cms-31308"
+                    ],
+                    "mini_project": "Create a simple game with basic AI-controlled enemies."
+                },
+                {
+                    "chapter_title": "Game Audio",
+                    "duration": "1 week",
+                    "description": "Explore the role of sound in game development, including sound effects, music, and ambient audio. Learn about audio formats and how to integrate audio into games.",
+                    "goal": "Add sound effects and music to enhance the gameplay experience.",
+                    "resources": [
+                        "https://www.youtube.com/playlist?list=PLPV2KyIb3j0r94U91_K3h3Z2v2k23c17M",
+                        "https://gamedevelopment.tutsplus.com/tutorials/game-development-fundamentals-audio--cms-31305"
+                    ],
+                    "mini_project": "Add sound effects to your existing game."
+                },
+                {
+                    "chapter_title": "Game Design Patterns",
+                    "duration": "1 week",
+                    "description": "Learn about common game design patterns and architectures to improve code organization, reusability, and maintainability.",
+                    "goal": "Apply design patterns to create more scalable and efficient game projects.",
+                    "resources": [
+                        "https://gamedev.stackexchange.com/questions/31820/game-design-patterns",
+                        "https://gamedevelopment.tutsplus.com/tutorials/game-development-fundamentals-game-design-patterns--cms-31311"
+                    ],
+                    "mini_project": "Refactor your existing game using a chosen design pattern."
+                }
+            ]
+        },
+        {
+            "module": "Portfolio Building and Job Search",
+            "chapters": [
+                {
+                    "chapter_title": "Building a Game Portfolio",
+                    "duration": "1 week",
+                    "description": "Develop a strong portfolio showcasing your game development skills and experience. Include diverse projects that highlight your abilities.",
+                    "goal": "Create a compelling portfolio to impress potential employers.",
+                    "resources": [
+                        "https://www.gamedeveloper.com/career/building-a-killer-game-dev-portfolio",
+                        "https://www.youtube.com/playlist?list=PLPV2KyIb3j0r94U91_K3h3Z2v2k23c17M"
+                    ],
+                    "mini_project": "Develop at least 2-3 complete game projects for your portfolio."
+                },
+                {
+                    "chapter_title": "Job Search Strategies",
+                    "duration": "1 week",
+                    "description": "Learn effective job search strategies for the game development industry. Explore job boards, networking opportunities, and company websites.",
+                    "goal": "Develop a plan to find and apply for suitable game development jobs.",
+                    "resources": [
+                        "https://www.gamedeveloper.com/career/how-to-land-a-game-dev-job",
+                        "https://www.indeed.com/career-advice/finding-a-job/game-developer-jobs"
+                    ],
+                    "mini_project": "Create a list of potential employers and tailor your resume and cover letter to their specific requirements."
+                },
+                {
+                    "chapter_title": "Interview Preparation",
+                    "duration": "1 week",
+                    "description": "Practice common game development interview questions and prepare to showcase your skills and experience.",
+                    "goal": "Gain confidence and prepare for successful job interviews.",
+                    "resources": [
+                        "https://www.gamedeveloper.com/career/how-to-prepare-for-a-game-dev-interview",
+                        "https://www.youtube.com/playlist?list=PLPV2KyIb3j0r94U91_K3h3Z2v2k23c17M"
+                    ],
+                    "mini_project": "Conduct mock interviews with friends or family to practice answering technical and behavioral questions."
+                }
+            ]
+        }
+    ]
+}

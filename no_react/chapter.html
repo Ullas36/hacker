@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chapter Details</title>
+
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        padding: 30px;
+        background-color: #f0f4f8;
+        color: #1e293b;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+      }
+
+      .container {
+        background: white;
+        padding: 30px;
+        border-radius: 16px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+        max-width: 800px;
+        width: 100%;
+      }
+
+      h1 {
+        color: #2563eb;
+        margin-bottom: 20px;
+      }
+
+      p,
+      div {
+        margin-bottom: 15px;
+      }
+
+      strong {
+        color: #1e293b;
+      }
+
+      ul {
+        margin-top: 10px;
+        padding-left: 20px;
+      }
+
+      a {
+        color: #dc2626;
+        text-decoration: underline;
+      }
+
+      .buttons {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 30px;
+      }
+
+      button {
+        padding: 10px 20px;
+        background-color: #2563eb;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-weight: 600;
+        transition: background 0.3s;
+      }
+
+      button:hover {
+        background-color: #1d4ed8;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 id="chapter-title"></h1>
+      <p><strong>Duration:</strong> <span id="chapter-duration"></span></p>
+      <p>
+        <strong>Description:</strong> <span id="chapter-description"></span>
+      </p>
+      <p><strong>Goal:</strong> <span id="chapter-goal"></span></p>
+      <p>
+        <strong>Mini Project:</strong> <span id="chapter-mini-project"></span>
+      </p>
+
+      <div>
+        <strong>Resources:</strong>
+        <ul id="chapter-resources"></ul>
+      </div>
+
+      <div class="buttons">
+        <button onclick="goBack()">⬅️ Back to Roadmap</button>
+        <button onclick="markAsRead()">✅ Mark as Done</button>
+        <button onclick="nextChapter()">➡️ Next Chapter</button>
+      </div>
+    </div>
+
+    <script>
+      const params = new URLSearchParams(window.location.search);
+
+      const chapterId = params.get("id");
+      const moduleId = params.get("module_id");
+      const chapterIndex = parseInt(params.get("chapter_index"));
+      const totalChapters = parseInt(params.get("total_chapters"));
+
+      document.getElementById("chapter-title").innerText = params.get("title");
+      document.getElementById("chapter-duration").innerText =
+        params.get("duration");
+      document.getElementById("chapter-description").innerText =
+        params.get("description");
+      document.getElementById("chapter-goal").innerText = params.get("goal");
+      document.getElementById("chapter-mini-project").innerText =
+        params.get("mini_project");
+
+      const resources = JSON.parse(params.get("resources") || "[]");
+      const resourcesList = document.getElementById("chapter-resources");
+
+      resources.forEach((link) => {
+        const li = document.createElement("li");
+        const a = document.createElement("a");
+        a.href = link;
+        a.target = "_blank";
+        a.innerText = link;
+        li.appendChild(a);
+        resourcesList.appendChild(li);
+      });
+
+      function goBack() {
+        window.location.href = "no_index.html"; // Adjust if your main page different
+      }
+
+      function markAsRead() {
+        if (chapterId && moduleId) {
+          let moduleProgress = JSON.parse(
+            localStorage.getItem("moduleProgress") || "{}"
+          );
+
+          if (!moduleProgress[moduleId]) {
+            moduleProgress[moduleId] = { completed: [] };
+          }
+
+          if (!moduleProgress[moduleId].completed.includes(chapterId)) {
+            moduleProgress[moduleId].completed.push(chapterId);
+            localStorage.setItem(
+              "moduleProgress",
+              JSON.stringify(moduleProgress)
+            );
+          }
+
+          alert("✅ Chapter marked as done!");
+
+          updateProgressRing(); // Optional to live update
+        }
+      }
+
+      function nextChapter() {
+        if (chapterIndex + 1 < totalChapters) {
+          const nextIndex = chapterIndex + 1;
+          const nextChapterId = moduleId + "-chapter-" + nextIndex; // Assuming ID format
+
+          window.location.href = `chapter.html?id=${nextChapterId}&module_id=${moduleId}&chapter_index=${nextIndex}&total_chapters=${totalChapters}&title=Next Chapter Title&duration=Some Duration&description=Description&goal=Goal&mini_project=Project&resources=${encodeURIComponent(
+            JSON.stringify([])
+          )}`;
+        } else {
+          alert("🎉 You have finished all chapters in this module!");
+          goBack();
+        }
+      }
+    </script>
+  </body>
+</html>

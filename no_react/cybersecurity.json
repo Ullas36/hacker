@@ -6,150 +6,165 @@
                 {
                     "chapter_title": "Introduction to Cybersecurity",
                     "duration": "1 week",
-                    "description": "Explore the history, concepts, and threats in cybersecurity.",
-                    "goal": "Understand basic cybersecurity terminology and principles.",
+                    "description": "Explore the history, evolution, and core concepts of cybersecurity. Understand the different types of cyber threats and their impact.",
+                    "goal": "Define cybersecurity concepts and identify common threats.",
                     "resources": [
-                        "https://www.youtube.com/playlist?list=PL8dPuuaLjXtPHzzYuWy6fYEaX9mQQ8oGr",
-                        "https://www.sans.org/cyber-security-resources/"
+                        "https://www.youtube.com/watch?v=9Z85s8x3oXc",
+                        "https://www.sans.org/cyber-security-resources/",
+                        "https://www.nist.gov/cyberframework"
                     ],
-                    "mini_project": "Create a basic personal cybersecurity checklist."
+                    "mini_project": "Create a simple cybersecurity awareness poster highlighting common threats and prevention tips."
                 },
                 {
-                    "chapter_title": "Types of Cyber Threats",
-                    "duration": "1 week",
-                    "description": "Learn about malware, phishing, social engineering, and other common threats.",
-                    "goal": "Identify and describe various types of cyberattacks.",
+                    "chapter_title": "Network Security",
+                    "duration": "2 weeks",
+                    "description": "Dive into network security concepts like firewalls, intrusion detection systems (IDS), and virtual private networks (VPN). Learn about network protocols and vulnerabilities.",
+                    "goal": "Explain network security mechanisms and identify potential network vulnerabilities.",
                     "resources": [
-                        "https://www.cisa.gov/uscert/ncas/tips",
-                        "https://owasp.org/www-project-top-ten/"
+                        "https://www.youtube.com/watch?v=r99e9986q2w",
+                        "https://www.cisco.com/c/en/us/products/security/network-security-essentials.html",
+                        "https://www.amazon.com/CompTIA-Network-Security-Study-Guide/dp/1119624531"
                     ],
-                    "mini_project": "Design a phishing awareness campaign for your friends and family."
+                    "mini_project": "Set up a basic firewall rule on your home network to block unauthorized access."
                 },
                 {
-                    "chapter_title": "Security Principles and Best Practices",
+                    "chapter_title": "Cryptography Basics",
                     "duration": "1 week",
-                    "description": "Explore core security principles like confidentiality, integrity, and availability.",
-                    "goal": "Apply fundamental security best practices in daily life.",
+                    "description": "Understand fundamental cryptographic concepts like encryption, decryption, hashing, and digital signatures. Explore symmetric and asymmetric encryption algorithms.",
+                    "goal": "Describe cryptographic principles and apply basic encryption techniques.",
                     "resources": [
-                        "https://www.NIST.gov/publications/detail/800-53",
-                        "https://www.sans.org/reading-room/whitepapers/security-awareness/security-awareness-training-program-1884"
+                        "https://www.youtube.com/watch?v=7q9s-2z2854",
+                        "https://www.coursera.org/learn/cryptography-i",
+                        "https://www.amazon.com/Cryptography-Engineering-Bruce-Schneider/dp/0134449141"
                     ],
-                    "mini_project": "Conduct a security audit of your personal devices and accounts."
+                    "mini_project": "Encrypt and decrypt a simple message using a basic encryption algorithm."
+                },
+                {
+                    "chapter_title": "Ethical Hacking and Penetration Testing",
+                    "duration": "1 week",
+                    "description": "Introduction to ethical hacking methodologies and penetration testing techniques. Learn about vulnerability scanning and exploitation.",
+                    "goal": "Understand the principles of ethical hacking and penetration testing.",
+                    "resources": [
+                        "https://www.youtube.com/watch?v=z7mN998i20E",
+                        "https://www.offensive-security.com/",
+                        "https://www.amazon.com/Penetration-Testing-Exam-Study-Guide/dp/178995378X"
+                    ],
+                    "mini_project": "Perform a basic vulnerability scan on a web application using a free online tool."
                 }
             ]
         },
         {
-            "module": "Network Security",
-            "chapters": [
-                {
-                    "chapter_title": "Network Fundamentals",
-                    "duration": "1 week",
-                    "description": "Understand basic networking concepts like TCP/IP, OSI model, and common protocols.",
-                    "goal": "Grasp the basics of how networks function.",
-                    "resources": [
-                        "https://www.youtube.com/watch?v=dN88nWvDld8",
-                        "https://docs.linuxfoundation.org/networking/networking-fundamentals/"
-                    ],
-                    "mini_project": "Set up a basic network topology with virtual machines."
-                },
-                {
-                    "chapter_title": "Firewalls and Intrusion Detection Systems (IDS)",
-                    "duration": "1 week",
-                    "description": "Learn how firewalls and IDS protect networks from unauthorized access and malicious activity.",
-                    "goal": "Configure basic firewall rules and understand IDS functionalities.",
-                    "resources": [
-                        "https://www.cloudflare.com/learning/firewalls/",
-                        "https://www.imperva.com/learn/application-security/intrusion-detection-system/"
-                    ],
-                    "mini_project": "Set up a basic firewall using open-source software."
-                },
-                {
-                    "chapter_title": "Network Security Tools",
-                    "duration": "1 week",
-                    "description": "Explore popular network security tools like Nmap, Wireshark, and Metasploit.",
-                    "goal": "Gain hands-on experience with network security tools.",
-                    "resources": [
-                        "https://nmap.org/",
-                        "https://www.wireshark.org/",
-                        "https://www.metasploit.com/"
-                    ],
-                    "mini_project": "Perform a port scan on a target system using Nmap."
-                }
-            ]
-        },
-        {
-            "module": "Application Security",
+            "module": "Web Application Security",
             "chapters": [
                 {
                     "chapter_title": "OWASP Top 10 Vulnerabilities",
                     "duration": "1 week",
-                    "description": "Learn about the most common web application vulnerabilities.",
-                    "goal": "Identify and understand the OWASP Top 10 vulnerabilities.",
+                    "description": "Deep dive into the OWASP Top 10 web application security vulnerabilities. Understand the causes, impacts, and mitigation strategies for each vulnerability.",
+                    "goal": "Identify and explain the OWASP Top 10 vulnerabilities and their potential impact.",
                     "resources": [
                         "https://owasp.org/www-project-top-ten/",
-                        "https://portswigger.net/web-security"
+                        "https://portswigger.net/web-security",
+                        "https://www.amazon.com/Web-Application-Hacking-Practical-Guide/dp/178712579X"
                     ],
-                    "mini_project": "Analyze a simple web application for potential vulnerabilities."
+                    "mini_project": "Analyze a simple web application for common OWASP vulnerabilities."
                 },
                 {
-                    "chapter_title": "Secure Coding Practices",
+                    "chapter_title": "Cross-Site Scripting (XSS)",
                     "duration": "1 week",
-                    "description": "Learn best practices for writing secure code in JavaScript and React.",
-                    "goal": "Develop secure coding habits and avoid common vulnerabilities.",
+                    "description": "Explore different types of XSS attacks, prevention techniques, and how to protect against them. Learn about input validation and output encoding.",
+                    "goal": "Understand XSS attacks and implement preventive measures in web applications.",
                     "resources": [
-                        "https://owasp.org/www-project-javascript-security-cheatsheet/",
-                        "https://reactjs.org/docs/security.html"
+                        "https://www.youtube.com/watch?v=z7mN998i20E",
+                        "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html",
+                        "https://www.amazon.com/Cross-Site-Scripting-Exploitation-Prevention/dp/1484259377"
                     ],
-                    "mini_project": "Build a secure login system using React."
+                    "mini_project": "Develop a simple web application and implement measures to prevent XSS attacks."
                 },
                 {
-                    "chapter_title": "Authentication and Authorization",
+                    "chapter_title": "SQL Injection",
                     "duration": "1 week",
-                    "description": "Understand different authentication methods and authorization mechanisms.",
-                    "goal": "Implement secure authentication and authorization systems.",
+                    "description": "Learn about SQL injection vulnerabilities, different attack vectors, and preventive techniques. Understand parameterized queries and input sanitization.",
+                    "goal": "Identify and prevent SQL injection vulnerabilities in web applications.",
                     "resources": [
-                        "https://auth0.com/blog/authentication-vs-authorization/",
-                        "https://jwt.io/"
+                        "https://www.youtube.com/watch?v=7q9s-2z2854",
+                        "https://owasp.org/www-project-sql-injection/",
+                        "https://www.amazon.com/SQL-Injection-Exploitation-Prevention-Security/dp/1430260927"
                     ],
-                    "mini_project": "Implement JWT-based authentication in a React application."
+                    "mini_project": "Build a web application with a database connection and implement measures to prevent SQL injection."
                 }
             ]
         },
         {
-            "module": "Cryptography & Data Security",
+            "module": "JavaScript and React Security",
             "chapters": [
                 {
-                    "chapter_title": "Introduction to Cryptography",
+                    "chapter_title": "JavaScript Security Best Practices",
                     "duration": "1 week",
-                    "description": "Learn about encryption algorithms, hashing functions, and digital signatures.",
-                    "goal": "Understand the basics of cryptography and its applications in cybersecurity.",
+                    "description": "Explore secure coding practices in JavaScript. Learn about common vulnerabilities like cross-site scripting (XSS) and how to prevent them.",
+                    "goal": "Write secure JavaScript code and understand common vulnerabilities.",
                     "resources": [
-                        "https://www.youtube.com/playlist?list=PL288A18B00284F497",
-                        "https://crypto.stanford.edu/"
+                        "https://developer.mozilla.org/en-US/docs/Web/Security",
+                        "https://www.owasp.org/www-project-javascript-security-cheat-sheet/",
+                        "https://www.amazon.com/JavaScript-Security-Best-Practices-Developers/dp/1492077255"
                     ],
-                    "mini_project": "Encrypt a simple message using a basic encryption algorithm."
+                    "mini_project": "Build a simple JavaScript application and implement XSS prevention techniques."
                 },
                 {
-                    "chapter_title": "Symmetric and Asymmetric Encryption",
+                    "chapter_title": "React Security Considerations",
                     "duration": "1 week",
-                    "description": "Explore symmetric and asymmetric encryption algorithms and their use cases.",
-                    "goal": "Differentiate between symmetric and asymmetric encryption and their advantages/disadvantages.",
+                    "description": "Learn about security vulnerabilities specific to React applications. Understand how to protect against XSS, data leaks, and other common issues.",
+                    "goal": "Develop secure React applications and identify potential vulnerabilities.",
                     "resources": [
-                        "https://www.freecodecamp.org/news/a-beginners-guide-to-cryptography/",
-                        "https://www.schneier.com/blog/archives/2013/03/asymetric_cryp.html"
+                        "https://reactjs.org/blog/2018/03/29/react-security-best-practices.html",
+                        "https://www.owasp.org/index.php/Top_10_2017-Top_10#A1%3A_Broken_Access_Control",
+                        "https://www.amazon.com/React-Security-Best-Practices-Developers/dp/1789959788"
                     ],
-                    "mini_project": "Implement a simple symmetric encryption algorithm in JavaScript."
+                    "mini_project": "Build a secure React application that handles user authentication and data securely."
+                }
+            ]
+        },
+        {
+            "module": "Cybersecurity Tools and Technologies",
+            "chapters": [
+                {
+                    "chapter_title": "Network Monitoring Tools",
+                    "duration": "1 week",
+                    "description": "Explore network monitoring tools like Wireshark and tcpdump. Learn how to analyze network traffic, identify suspicious activity, and troubleshoot network issues.",
+                    "goal": "Use network monitoring tools to analyze traffic and identify potential threats.",
+                    "resources": [
+                        "https://www.wireshark.org/",
+                        "https://www.tcpdump.org/",
+                        "https://www.amazon.com/Wireshark-Network-Protocol-Analysis-Guide/dp/1484259377"
+                    ],
+                    "mini_project": "Capture and analyze network traffic using Wireshark to identify common protocols and potential vulnerabilities."
                 },
                 {
-                    "chapter_title": "Data Security and Privacy",
+                    "chapter_title": "Vulnerability Scanners",
                     "duration": "1 week",
-                    "description": "Learn about data encryption at rest and in transit, data loss prevention, and privacy regulations.",
-                    "goal": "Understand the principles of data security and privacy.",
+                    "description": "Learn about vulnerability scanners like Nessus and OpenVAS. Understand how to perform vulnerability scans, interpret results, and remediate vulnerabilities.",
+                    "goal": "Use vulnerability scanners to identify security weaknesses in systems and applications.",
                     "resources": [
-                        "https://www.cloudflare.com/learning/security/tls-encryption/",
-                        "https://www.gdpr.eu/"
+                        "https://www.tenable.com/products/nessus",
+                        "https://www.openvas.org/",
+                        "https://www.amazon.com/Practical-Vulnerability-Scanning-Guide-Techniques/dp/149197937X"
                     ],
-                    "mini_project": "Research and present on a specific data privacy regulation (e.g., GDPR, CCPA)."
+                    "mini_project": "Perform a basic vulnerability scan on a target system using a free vulnerability scanner and analyze the results."
+                }
+            ]
+        },
+        {
+            "module": "Cybersecurity Certification Preparation",
+            "chapters": [
+                {
+                    "chapter_title": "CompTIA Security+ Certification",
+                    "duration": "2 weeks",
+                    "description": "Focus on preparing for the CompTIA Security+ certification exam. Review key concepts, practice exam questions, and familiarize yourself with the exam format.",
+                    "goal": "Pass the CompTIA Security+ certification exam.",
+                    "resources": [
+                        "https://www.comptia.org/certifications/security",
+                        "https://www.amazon.com/CompTIA-Security-Exam-Study-Guide/dp/1119624531"
+                    ],
+                    "mini_project": "Take practice exams for the CompTIA Security+ certification and analyze your strengths and weaknesses."
                 }
             ]
         }

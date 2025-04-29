@@ -1,0 +1,162 @@
+{
+    "roadmap": [
+        {
+            "module": "Cybersecurity Fundamentals",
+            "chapters": [
+                {
+                    "chapter_title": "Introduction to Cybersecurity",
+                    "duration": "1 week",
+                    "description": "Understand the basics of cybersecurity, threats, vulnerabilities, and attacks. Explore different types of cyberattacks and their impact.",
+                    "goal": "Define key cybersecurity concepts and identify common threats.",
+                    "resources": [
+                        "https://www.youtube.com/watch?v=7lZ1Z_m_Y54",
+                        "https://www.sans.org/cyber-security-courses/introduction-to-cyber-security"
+                    ],
+                    "mini_project": "Create a cybersecurity awareness poster highlighting common threats and best practices."
+                },
+                {
+                    "chapter_title": "Network Security",
+                    "duration": "2 weeks",
+                    "description": "Learn about network protocols, firewalls, intrusion detection systems (IDS), and virtual private networks (VPN). Understand how to secure networks from attacks.",
+                    "goal": "Explain network security concepts and implement basic security measures.",
+                    "resources": [
+                        "https://www.youtube.com/watch?v=4tG49hP1R_w",
+                        "https://www.cloudflare.com/learning/security/what-is-a-firewall/"
+                    ],
+                    "mini_project": "Set up a basic firewall on a home network using a router."
+                },
+                {
+                    "chapter_title": "Operating System Security",
+                    "duration": "1 week",
+                    "description": "Explore security concepts related to operating systems, including user permissions, file system security, and patch management. Learn how to harden operating systems against attacks.",
+                    "goal": "Identify operating system security vulnerabilities and implement hardening measures.",
+                    "resources": [
+                        "https://www.youtube.com/watch?v=7y2_8Y_v99A",
+                        "https://www.microsoft.com/en-us/security/blog/hardening-your-windows-environment/"
+                    ],
+                    "mini_project": "Apply security best practices to harden a virtual machine running a common operating system."
+                }
+            ]
+        },
+        {
+            "module": "Application Security",
+            "chapters": [
+                {
+                    "chapter_title": "Web Application Security",
+                    "duration": "2 weeks",
+                    "description": "Understand common web application vulnerabilities like SQL injection, cross-site scripting (XSS), and cross-site request forgery (CSRF). Learn how to protect web applications from these attacks.",
+                    "goal": "Identify and mitigate common web application vulnerabilities.",
+                    "resources": [
+                        "https://www.owasp.org/index.php/OWASP_Top_10",
+                        "https://portswigger.net/web-security"
+                    ],
+                    "mini_project": "Identify vulnerabilities in a simple web application and propose security solutions."
+                },
+                {
+                    "chapter_title": "Secure Coding Practices",
+                    "duration": "2 weeks",
+                    "description": "Learn secure coding practices in JavaScript to prevent common vulnerabilities. Understand how to handle user input securely, sanitize data, and prevent code injection attacks.",
+                    "goal": "Write secure JavaScript code that minimizes vulnerabilities.",
+                    "resources": [
+                        "https://www.owasp.org/index.php/Top_10_2017_Pro_Tips",
+                        "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Security"
+                    ],
+                    "mini_project": "Implement secure coding practices in a small JavaScript project to prevent common vulnerabilities."
+                },
+                {
+                    "chapter_title": "React Security Best Practices",
+                    "duration": "1 week",
+                    "description": "Explore security considerations specific to React applications. Learn how to protect against XSS attacks, prevent data leaks, and secure API interactions.",
+                    "goal": "Apply React-specific security best practices to build secure applications.",
+                    "resources": [
+                        "https://reactjs.org/blog/2018/03/29/react-security-best-practices.html",
+                        "https://hackernoon.com/reactjs-security-best-practices-you-should-know-7c4f75261976"
+                    ],
+                    "mini_project": "Identify and mitigate potential security vulnerabilities in a sample React application."
+                }
+            ]
+        },
+        {
+            "module": "Cybersecurity Tools and Technologies",
+            "chapters": [
+                {
+                    "chapter_title": "Network Scanning and Analysis",
+                    "duration": "2 weeks",
+                    "description": "Learn how to use network scanning tools like Nmap to discover devices, services, and vulnerabilities. Understand network traffic analysis techniques.",
+                    "goal": "Perform basic network scanning and analysis to identify potential security risks.",
+                    "resources": [
+                        "https://nmap.org/",
+                        "https://www.youtube.com/watch?v=z57nU-0L8yM"
+                    ],
+                    "mini_project": "Scan a local network using Nmap to identify connected devices and open ports."
+                },
+                {
+                    "chapter_title": "Vulnerability Assessment and Penetration Testing",
+                    "duration": "2 weeks",
+                    "description": "Explore vulnerability assessment tools and techniques. Learn about penetration testing methodologies and ethical hacking principles.",
+                    "goal": "Conduct basic vulnerability assessments and understand penetration testing concepts.",
+                    "resources": [
+                        "https://www.kali.org/",
+                        "https://www.youtube.com/watch?v=eL-7l147-7g"
+                    ],
+                    "mini_project": "Use a vulnerability scanner to assess the security of a web application."
+                }
+            ]
+        },
+        {
+            "module": "Cybersecurity Incident Response",
+            "chapters": [
+                {
+                    "chapter_title": "Incident Response Process",
+                    "duration": "1 week",
+                    "description": "Understand the steps involved in incident response, including detection, containment, eradication, recovery, and lessons learned.",
+                    "goal": "Describe the key phases of the incident response process.",
+                    "resources": [
+                        "https://www.cisa.gov/sites/default/files/publications/Cybersecurity-Incident-Response-Guide-v1.0.pdf",
+                        "https://www.sans.org/cyber-security-courses/incident-response-training"
+                    ],
+                    "mini_project": "Develop a basic incident response plan for a small organization."
+                },
+                {
+                    "chapter_title": "Security Monitoring and Logging",
+                    "duration": "1 week",
+                    "description": "Learn how to monitor security events and analyze logs to detect suspicious activity. Understand the importance of log management and analysis.",
+                    "goal": "Implement basic security monitoring and logging techniques.",
+                    "resources": [
+                        "https://www.splunk.com/en_us/blog/security-monitoring-and-response.html",
+                        "https://www.youtube.com/watch?v=bF1B-9889oA"
+                    ],
+                    "mini_project": "Set up basic log monitoring for a web server using a log analysis tool."
+                }
+            ]
+        },
+        {
+            "module": "Cybersecurity Certifications",
+            "chapters": [
+                {
+                    "chapter_title": "Choosing the Right Certification",
+                    "duration": "1 week",
+                    "description": "Explore different cybersecurity certifications and identify the best fit for your career goals. Understand the requirements and benefits of each certification.",
+                    "goal": "Select a relevant cybersecurity certification based on your interests and career aspirations.",
+                    "resources": [
+                        "https://www.isc2.org/",
+                        "https://www.comptia.org/",
+                        "https://www.eccouncil.org/"
+                    ],
+                    "mini_project": "Research and compare different cybersecurity certifications based on your career goals."
+                },
+                {
+                    "chapter_title": "Certification Exam Preparation",
+                    "duration": "2 weeks",
+                    "description": "Develop a study plan and utilize practice exams, study guides, and online resources to prepare for your chosen certification exam.",
+                    "goal": "Prepare effectively for your cybersecurity certification exam.",
+                    "resources": [
+                        "https://www.youtube.com/watch?v=S39k_r-m8nE",
+                        "https://www.guru99.com/cybersecurity-certification-guide.html"
+                    ],
+                    "mini_project": "Take a practice exam for your chosen certification and analyze your strengths and weaknesses."
+                }
+            ]
+        }
+    ]
+}

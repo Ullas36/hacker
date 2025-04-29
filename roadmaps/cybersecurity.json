@@ -1,0 +1,233 @@
+{
+    "roadmap": [
+        {
+            "module": "Cybersecurity Fundamentals",
+            "chapters": [
+                {
+                    "chapter_title": "Introduction to Cybersecurity",
+                    "duration": "1 week",
+                    "description": "Explore the history, principles, and key concepts of cybersecurity. Understand different types of cyber threats, vulnerabilities, and attack vectors.",
+                    "goal": "Define cybersecurity and its importance.",
+                    "resources": [
+                        "https://www.youtube.com/watch?v=q24mQz88s8A",
+                        "https://www.sans.org/cyber-security-resources",
+                        "https://www.nist.gov/cyberframework"
+                    ],
+                    "mini_project": "Create a cybersecurity awareness poster highlighting common threats and best practices."
+                },
+                {
+                    "chapter_title": "Network Security",
+                    "duration": "2 weeks",
+                    "description": "Dive into network security concepts like firewalls, intrusion detection systems (IDS), and virtual private networks (VPN). Learn about common network attacks and mitigation strategies.",
+                    "goal": "Understand network security mechanisms and their role in protecting data.",
+                    "resources": [
+                        "https://www.cloudflare.com/learning/networking/",
+                        "https://www.youtube.com/watch?v=2Z9_4254q18",
+                        "https://www.cisco.com/c/en/us/products/security/firewalls/index.html"
+                    ],
+                    "mini_project": "Configure a basic firewall rule set using a popular firewall software."
+                },
+                {
+                    "chapter_title": "Operating System Security",
+                    "duration": "1 week",
+                    "description": "Explore security hardening techniques for operating systems like Windows and Linux. Learn about user permissions, file system security, and system auditing.",
+                    "goal": "Implement secure configurations for operating systems to minimize vulnerabilities.",
+                    "resources": [
+                        "https://www.youtube.com/watch?v=o2378m73b9I",
+                        "https://www.microsoft.com/en-us/security/benchmarks",
+                        "https://www.cyberciti.biz/faq/linux-hardening-checklist/"
+                    ],
+                    "mini_project": "Apply security hardening best practices to a virtual machine running a Linux distribution."
+                },
+                {
+                    "chapter_title": "Malware Analysis",
+                    "duration": "2 weeks",
+                    "description": "Understand different types of malware, their functionalities, and infection techniques. Learn basic malware analysis tools and methodologies.",
+                    "goal": "Identify and analyze common malware threats.",
+                    "resources": [
+                        "https://www.youtube.com/watch?v=w9z0aU7B_2Y",
+                        "https://www.sans.org/cyber-security-courses/malware-analysis",
+                        "https://www.fireeye.com/blog/threat-research.html"
+                    ],
+                    "mini_project": "Analyze a sample malware file using a sandbox environment and document its behavior."
+                }
+            ]
+        },
+        {
+            "module": "Web Application Security",
+            "chapters": [
+                {
+                    "chapter_title": "OWASP Top 10",
+                    "duration": "1 week",
+                    "description": "Learn about the OWASP Top 10 most critical web application security risks. Understand the vulnerabilities and their potential impact.",
+                    "goal": "Identify and understand common web application security vulnerabilities.",
+                    "resources": [
+                        "https://owasp.org/www-project-top-ten/",
+                        "https://portswigger.net/web-security",
+                        "https://www.youtube.com/watch?v=wXjG5e0W78Q"
+                    ],
+                    "mini_project": "Conduct a vulnerability scan on a simple web application using a tool like OWASP ZAP."
+                },
+                {
+                    "chapter_title": "Cross-Site Scripting (XSS)",
+                    "duration": "1 week",
+                    "description": "Deep dive into XSS vulnerabilities, their different types (stored, reflected, DOM-based), and prevention techniques. Learn how to detect and mitigate XSS attacks.",
+                    "goal": "Understand XSS vulnerabilities and implement secure coding practices to prevent them.",
+                    "resources": [
+                        "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html",
+                        "https://www.youtube.com/watch?v=f47y_v6N71s",
+                        "https://portswigger.net/web-security/cross-site-scripting"
+                    ],
+                    "mini_project": "Develop a web application vulnerable to XSS and then implement security measures to prevent it."
+                },
+                {
+                    "chapter_title": "SQL Injection",
+                    "duration": "1 week",
+                    "description": "Explore SQL injection vulnerabilities, how they work, and the potential damage they can cause. Learn about secure coding practices and input validation techniques to prevent SQL injection attacks.",
+                    "goal": "Understand SQL injection vulnerabilities and implement secure coding practices to prevent them.",
+                    "resources": [
+                        "https://owasp.org/www-project-sqli/",
+                        "https://www.youtube.com/watch?v=h8c1Z536F2g",
+                        "https://portswigger.net/web-security/sql-injection"
+                    ],
+                    "mini_project": "Create a web application vulnerable to SQL injection and then implement security measures to prevent it."
+                },
+                {
+                    "chapter_title": "Authentication and Authorization",
+                    "duration": "1 week",
+                    "description": "Learn about different authentication methods (password-based, multi-factor authentication) and authorization techniques. Understand how to implement secure authentication and authorization systems in web applications.",
+                    "goal": "Implement secure authentication and authorization mechanisms in web applications.",
+                    "resources": [
+                        "https://auth0.com/blog/authentication-and-authorization/",
+                        "https://www.youtube.com/watch?v=z7b5p_rR01Q",
+                        "https://jwt.io/"
+                    ],
+                    "mini_project": "Implement a simple user authentication system in a web application using a chosen authentication method."
+                }
+            ]
+        },
+        {
+            "module": "Ethical Hacking and Penetration Testing",
+            "chapters": [
+                {
+                    "chapter_title": "Introduction to Ethical Hacking",
+                    "duration": "1 week",
+                    "description": "Understand the principles and methodologies of ethical hacking. Learn about different penetration testing techniques and the legal and ethical considerations involved.",
+                    "goal": "Define ethical hacking and understand its role in cybersecurity.",
+                    "resources": [
+                        "https://www.youtube.com/watch?v=3z35l92Rj3w",
+                        "https://www.sans.org/cyber-security-courses/penetration-testing",
+                        "https://www.offensive-security.com/"
+                    ],
+                    "mini_project": "Set up a virtual lab environment for practicing penetration testing techniques."
+                },
+                {
+                    "chapter_title": "Network Scanning and Enumeration",
+                    "duration": "1 week",
+                    "description": "Learn about network scanning tools like Nmap and how to use them for discovering hosts, services, and vulnerabilities. Understand network enumeration techniques for gathering information about target systems.",
+                    "goal": "Perform basic network scans and enumerate target systems.",
+                    "resources": [
+                        "https://nmap.org/",
+                        "https://www.youtube.com/watch?v=7-l1l2f-20U",
+                        "https://www.pentest-tools.com/network-scanning/"
+                    ],
+                    "mini_project": "Scan a small network for open ports and services using Nmap."
+                },
+                {
+                    "chapter_title": "Web Application Vulnerability Scanning",
+                    "duration": "1 week",
+                    "description": "Learn about tools like Burp Suite and OWASP ZAP for automated web application vulnerability scanning. Understand how to interpret scan results and prioritize vulnerabilities.",
+                    "goal": "Perform automated web application vulnerability scans and analyze the results.",
+                    "resources": [
+                        "https://portswigger.net/burp",
+                        "https://owasp.org/www-project-zap/",
+                        "https://www.youtube.com/watch?v=47k7uX9g5u4"
+                    ],
+                    "mini_project": "Scan a web application using a vulnerability scanner and document the findings."
+                },
+                {
+                    "chapter_title": "Exploitation Techniques",
+                    "duration": "1 week",
+                    "description": "Learn about common exploitation techniques used by attackers. Understand how to exploit vulnerabilities in a controlled environment for testing purposes.",
+                    "goal": "Understand common exploitation techniques and their impact.",
+                    "resources": [
+                        "https://www.offensive-security.com/metasploit-unveiled-2/",
+                        "https://www.youtube.com/watch?v=J-Yp85q7d_Y",
+                        "https://www.exploit-db.com/"
+                    ],
+                    "mini_project": "Use Metasploit to exploit a known vulnerability in a virtual machine."
+                }
+            ]
+        },
+        {
+            "module": "Security Tools and Technologies",
+            "chapters": [
+                {
+                    "chapter_title": "Intrusion Detection and Prevention Systems (IDS/IPS)",
+                    "duration": "1 week",
+                    "description": "Explore different types of IDS/IPS systems, their functionalities, and deployment models. Learn about signature-based and anomaly-based detection techniques.",
+                    "goal": "Understand IDS/IPS systems and their role in threat detection and prevention.",
+                    "resources": [
+                        "https://www.cisco.com/c/en/us/products/security/firewalls/intrusion-prevention-systems.html",
+                        "https://www.youtube.com/watch?v=D1sT46m_W2s",
+                        "https://www.sophos.com/en-us/threat-intelligence/sophos-labs-blog/2023/01/10/what-is-an-intrusion-detection-system.aspx"
+                    ],
+                    "mini_project": "Configure and test a basic IDS/IPS system using open-source tools like Snort or Suricata."
+                },
+                {
+                    "chapter_title": "Security Information and Event Management (SIEM)",
+                    "duration": "1 week",
+                    "description": "Learn about SIEM systems, their capabilities for collecting, analyzing, and correlating security events. Understand how SIEMs help in incident response and threat hunting.",
+                    "goal": "Understand SIEM systems and their role in security monitoring and analysis.",
+                    "resources": [
+                        "https://www.splunk.com/en_us/cyber-security.html",
+                        "https://www.youtube.com/watch?v=d1h8z1y4v0w",
+                        "https://www.logrhythm.com/blog/what-is-siem-and-why-do-you-need-it/"
+                    ],
+                    "mini_project": "Set up a basic SIEM system using open-source tools like ELK Stack (Elasticsearch, Logstash, Kibana)."
+                },
+                {
+                    "chapter_title": "Security Automation and Orchestration (SOAR)",
+                    "duration": "1 week",
+                    "description": "Explore SOAR platforms and their role in automating security tasks, incident response workflows, and threat intelligence integration.",
+                    "goal": "Understand SOAR platforms and their potential for improving security efficiency.",
+                    "resources": [
+                        "https://www.paloaltonetworks.com/cybersecurity/security-orchestration-automation-response-soar",
+                        "https://www.youtube.com/watch?v=5l9b9e8Y75I",
+                        "https://www.ibm.com/cloud/learn/security-automation"
+                    ],
+                    "mini_project": "Automate a simple security task using a SOAR platform or scripting tools like Python."
+                },
+                {
+                    "chapter_title": "Cloud Security",
+                    "duration": "1 week",
+                    "description": "Learn about cloud security concepts, shared responsibility models, and common security controls in cloud environments (AWS, Azure, GCP).",
+                    "goal": "Understand cloud security fundamentals and best practices.",
+                    "resources": [
+                        "https://aws.amazon.com/security/",
+                        "https://azure.microsoft.com/en-us/security/",
+                        "https://cloud.google.com/security"
+                    ],
+                    "mini_project": "Implement basic security configurations for a cloud resource (e.g., S3 bucket, Azure VM) based on best practices."
+                }
+            ]
+        },
+        {
+            "module": "Cybersecurity Certification Preparation",
+            "chapters": [
+                {
+                    "chapter_title": "CompTIA Security+ Certification",
+                    "duration": "2 weeks",
+                    "description": "Prepare for the CompTIA Security+ certification exam. Focus on key domains like threats, attacks, cryptography, network security, and security operations.",
+                    "goal": "Pass the CompTIA Security+ exam.",
+                    "resources": [
+                        "https://www.comptia.org/certifications/security",
+                        "https://www.youtube.com/watch?v=J-Yp85q7d_Y",
+                        "https://www.sybex.com/comptia/security-certification-study-guide"
+                    ],
+                    "mini_project": "Complete practice exams and review weak areas identified in the assessments."
+                }
+            ]
+        }
+    ]
+}

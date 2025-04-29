@@ -48,7 +48,7 @@ Respond ONLY in JSON format structured like:
         {{
           "chapter_title": "Chapter Name",
           "duration": "1-2 weeks",
-          "description": "Brief description of the chapter",
+          "description": "long description of the chapter",
           "goal": "Goal Description",
           "resources": ["Resource1 URL", "Resource2 URL", "Resource3 URL"],
           "mini_project": "Mini Project Idea"
@@ -86,24 +86,33 @@ def generate_roadmap(answers: dict) -> str:
     roadmap = response.choices[0].message.content
     
     # Call save_to_json with answers to dynamically set the filename
-    save_to_json(roadmap, answers)
+    save_to_json(roadmap, answers, directory="no_react")
+
     
     return roadmap
 
 
-def save_to_json(roadmap_str: str, answers: dict):
+def save_to_json(roadmap_str: str, answers: dict, directory: str = "no_react") -> None:
     try:
-        # Create a valid filename based on answers['q0']
         filename = f"{answers['q0'].replace(' ', '_').lower()}.json"
+        os.makedirs(directory, exist_ok=True)
+        filepath = os.path.join(directory, filename)
         
-        # Load the roadmap JSON structure from the string
         roadmap_json = json.loads(roadmap_str)
         
-        # Save the JSON to a file with the dynamic filename
-        with open(filename, 'w', encoding='UTF_8') as file:
+        with open(filepath, 'w', encoding='utf-8') as file:
             json.dump(roadmap_json, file, indent=4, ensure_ascii=False)
+
+        print(f"The roadmap is saved successfully at: {filepath}")
         
-        print(f"The roadmap is saved in the file successfully: {filename}")
+        # ✨ Save the filename into a simple JSON for JS to read
+        meta_info = {"filename": filename}
+        meta_path = os.path.join(directory, "current_file.json")
+        with open(meta_path, 'w', encoding='utf-8') as metafile:
+            json.dump(meta_info, metafile, indent=4)
+        
+        print(f"Filename info also saved in: {meta_path}")
 
     except json.JSONDecodeError as e:
-        print('Failed to load the json file:', e)
+        print('Failed to load the JSON content:', e)
+        print('Filename was supposed to be:', filename)

@@ -4,7 +4,7 @@ from model import generate_roadmap
 
 # Example user answers
 user_answers = {
-    "q0": "DevOps",
+    "q0": "Mobile App Development",
     "q1": "Beginner",
     "q2": "5-10 hours",
     "q3": "Get a Job",
@@ -25,7 +25,7 @@ if __name__ == "__main__":
 
     print("\n=== ROADMAP SAVED TO JSON ===\n")
     # Load the saved JSON file to verify its content
-    print(save_to_json(roadmap_str=roadmap, answers=user_answers))
+    # print(save_to_json(roadmap_str=roadmap, answers=user_answers))
     
     
    

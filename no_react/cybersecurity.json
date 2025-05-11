@@ -6,50 +6,50 @@
                 {
                     "chapter_title": "Introduction to Cybersecurity",
                     "duration": "1 week",
-                    "description": "Explore the history, evolution, and core concepts of cybersecurity. Understand the different types of cyber threats and their impact.",
-                    "goal": "Define cybersecurity concepts and identify common threats.",
+                    "description": "Explore the history, scope, and importance of cybersecurity. Understand different types of cyber threats, vulnerabilities, and attack vectors.",
+                    "goal": "Grasp the basic concepts of cybersecurity and its relevance in today's digital world.",
                     "resources": [
-                        "https://www.youtube.com/watch?v=9Z85s8x3oXc",
-                        "https://www.sans.org/cyber-security-resources/",
+                        "https://www.youtube.com/watch?v=f7e5W8C-KLM",
+                        "https://www.sans.org/cyber-security-courses/introduction-to-cyber-security",
                         "https://www.nist.gov/cyberframework"
                     ],
-                    "mini_project": "Create a simple cybersecurity awareness poster highlighting common threats and prevention tips."
+                    "mini_project": "Create a cybersecurity awareness poster highlighting common threats and prevention tips."
                 },
                 {
-                    "chapter_title": "Network Security",
-                    "duration": "2 weeks",
-                    "description": "Dive into network security concepts like firewalls, intrusion detection systems (IDS), and virtual private networks (VPN). Learn about network protocols and vulnerabilities.",
-                    "goal": "Explain network security mechanisms and identify potential network vulnerabilities.",
-                    "resources": [
-                        "https://www.youtube.com/watch?v=r99e9986q2w",
-                        "https://www.cisco.com/c/en/us/products/security/network-security-essentials.html",
-                        "https://www.amazon.com/CompTIA-Network-Security-Study-Guide/dp/1119624531"
-                    ],
-                    "mini_project": "Set up a basic firewall rule on your home network to block unauthorized access."
-                },
-                {
-                    "chapter_title": "Cryptography Basics",
+                    "chapter_title": "Networking Basics for Cybersecurity",
                     "duration": "1 week",
-                    "description": "Understand fundamental cryptographic concepts like encryption, decryption, hashing, and digital signatures. Explore symmetric and asymmetric encryption algorithms.",
-                    "goal": "Describe cryptographic principles and apply basic encryption techniques.",
+                    "description": "Learn fundamental networking concepts like IP addresses, ports, protocols (TCP/IP, HTTP, HTTPS), firewalls, and VPNs. Understand how networks are structured and how attackers exploit vulnerabilities.",
+                    "goal": "Develop a foundational understanding of networking principles essential for cybersecurity.",
                     "resources": [
-                        "https://www.youtube.com/watch?v=7q9s-2z2854",
+                        "https://www.youtube.com/watch?v=9r35lQ1-t9E",
+                        "https://www.cisco.com/c/en/us/training-events/training-certifications/ccna.html",
+                        "https://www.cloudflare.com/learning/dns/"
+                    ],
+                    "mini_project": "Set up a basic home network and configure a firewall."
+                },
+                {
+                    "chapter_title": "Operating Systems Security",
+                    "duration": "1 week",
+                    "description": "Explore security concepts related to operating systems (Windows, Linux, macOS). Learn about user permissions, file systems, system hardening, and common vulnerabilities.",
+                    "goal": "Understand how to secure operating systems against common threats.",
+                    "resources": [
+                        "https://www.youtube.com/watch?v=42bYj75n9s0",
+                        "https://www.microsoft.com/en-us/security/defense-evolving",
+                        "https://www.linuxfoundation.org/training/"
+                    ],
+                    "mini_project": "Implement basic security configurations on a virtual machine."
+                },
+                {
+                    "chapter_title": "Cryptography and Data Security",
+                    "duration": "1 week",
+                    "description": "Introduction to cryptography concepts like encryption, hashing, digital signatures, and symmetric/asymmetric algorithms. Understand how data is protected in transit and at rest.",
+                    "goal": "Gain a fundamental understanding of cryptographic principles used in cybersecurity.",
+                    "resources": [
+                        "https://www.youtube.com/watch?v=J9a_f489p8E",
                         "https://www.coursera.org/learn/cryptography-i",
-                        "https://www.amazon.com/Cryptography-Engineering-Bruce-Schneider/dp/0134449141"
+                        "https://www.schneier.com/blog/"
                     ],
-                    "mini_project": "Encrypt and decrypt a simple message using a basic encryption algorithm."
-                },
-                {
-                    "chapter_title": "Ethical Hacking and Penetration Testing",
-                    "duration": "1 week",
-                    "description": "Introduction to ethical hacking methodologies and penetration testing techniques. Learn about vulnerability scanning and exploitation.",
-                    "goal": "Understand the principles of ethical hacking and penetration testing.",
-                    "resources": [
-                        "https://www.youtube.com/watch?v=z7mN998i20E",
-                        "https://www.offensive-security.com/",
-                        "https://www.amazon.com/Penetration-Testing-Exam-Study-Guide/dp/178995378X"
-                    ],
-                    "mini_project": "Perform a basic vulnerability scan on a web application using a free online tool."
+                    "mini_project": "Implement a simple encryption/decryption algorithm in JavaScript."
                 }
             ]
         },
@@ -59,112 +59,185 @@
                 {
                     "chapter_title": "OWASP Top 10 Vulnerabilities",
                     "duration": "1 week",
-                    "description": "Deep dive into the OWASP Top 10 web application security vulnerabilities. Understand the causes, impacts, and mitigation strategies for each vulnerability.",
-                    "goal": "Identify and explain the OWASP Top 10 vulnerabilities and their potential impact.",
+                    "description": "Deep dive into the OWASP Top 10 most critical web application security risks. Understand their causes, impacts, and mitigation strategies.",
+                    "goal": "Identify and understand the most common web application vulnerabilities.",
                     "resources": [
                         "https://owasp.org/www-project-top-ten/",
                         "https://portswigger.net/web-security",
-                        "https://www.amazon.com/Web-Application-Hacking-Practical-Guide/dp/178712579X"
+                        "https://www.youtube.com/watch?v=W817J1qL9fQ"
                     ],
-                    "mini_project": "Analyze a simple web application for common OWASP vulnerabilities."
+                    "mini_project": "Analyze a sample web application for potential OWASP Top 10 vulnerabilities."
                 },
                 {
                     "chapter_title": "Cross-Site Scripting (XSS)",
                     "duration": "1 week",
-                    "description": "Explore different types of XSS attacks, prevention techniques, and how to protect against them. Learn about input validation and output encoding.",
-                    "goal": "Understand XSS attacks and implement preventive measures in web applications.",
+                    "description": "Learn about different types of XSS attacks (Stored, Reflected, DOM-based), how they work, and techniques to prevent them. Understand input validation, output encoding, and Content Security Policy (CSP).",
+                    "goal": "Understand XSS vulnerabilities and how to protect against them.",
                     "resources": [
-                        "https://www.youtube.com/watch?v=z7mN998i20E",
+                        "https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)",
                         "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html",
-                        "https://www.amazon.com/Cross-Site-Scripting-Exploitation-Prevention/dp/1484259377"
+                        "https://www.youtube.com/watch?v=2Y91l2sW24Q"
                     ],
-                    "mini_project": "Develop a simple web application and implement measures to prevent XSS attacks."
+                    "mini_project": "Build a simple web application and implement measures to prevent XSS vulnerabilities."
                 },
                 {
                     "chapter_title": "SQL Injection",
                     "duration": "1 week",
-                    "description": "Learn about SQL injection vulnerabilities, different attack vectors, and preventive techniques. Understand parameterized queries and input sanitization.",
-                    "goal": "Identify and prevent SQL injection vulnerabilities in web applications.",
+                    "description": "Explore SQL injection attacks, how they exploit vulnerable database interactions, and techniques to prevent them. Learn about parameterized queries, prepared statements, and input sanitization.",
+                    "goal": "Understand SQL injection vulnerabilities and how to secure database interactions.",
                     "resources": [
-                        "https://www.youtube.com/watch?v=7q9s-2z2854",
-                        "https://owasp.org/www-project-sql-injection/",
-                        "https://www.amazon.com/SQL-Injection-Exploitation-Prevention-Security/dp/1430260927"
+                        "https://www.owasp.org/index.php/SQL_Injection",
+                        "https://www.youtube.com/watch?v=h9Z4_a1R28g",
+                        "https://portswigger.net/web-security/sql-injection"
                     ],
-                    "mini_project": "Build a web application with a database connection and implement measures to prevent SQL injection."
+                    "mini_project": "Create a basic web application with a database and implement measures to prevent SQL injection."
+                },
+                {
+                    "chapter_title": "Authentication and Authorization",
+                    "duration": "1 week",
+                    "description": "Understand different authentication methods (passwords, multi-factor authentication), authorization principles (role-based access control), and best practices for secure user management.",
+                    "goal": "Learn how to implement secure authentication and authorization mechanisms in web applications.",
+                    "resources": [
+                        "https://auth0.com/blog/authentication-vs-authorization/",
+                        "https://www.youtube.com/watch?v=X6-Vq8f-91g",
+                        "https://www.owasp.org/index.php/Authentication_Cheat_Sheet"
+                    ],
+                    "mini_project": "Implement a basic user authentication system in your web application using a simple password hashing approach."
                 }
             ]
         },
         {
-            "module": "JavaScript and React Security",
+            "module": "Ethical Hacking and Penetration Testing",
             "chapters": [
                 {
-                    "chapter_title": "JavaScript Security Best Practices",
+                    "chapter_title": "Introduction to Ethical Hacking",
                     "duration": "1 week",
-                    "description": "Explore secure coding practices in JavaScript. Learn about common vulnerabilities like cross-site scripting (XSS) and how to prevent them.",
-                    "goal": "Write secure JavaScript code and understand common vulnerabilities.",
+                    "description": "Explore the principles of ethical hacking, legal and ethical considerations, and different penetration testing methodologies.",
+                    "goal": "Understand the ethical framework and methodologies of penetration testing.",
                     "resources": [
-                        "https://developer.mozilla.org/en-US/docs/Web/Security",
-                        "https://www.owasp.org/www-project-javascript-security-cheat-sheet/",
-                        "https://www.amazon.com/JavaScript-Security-Best-Practices-Developers/dp/1492077255"
+                        "https://www.youtube.com/watch?v=71_z14j8f9Y",
+                        "https://www.offensive-security.com/metasploit-unleashed/",
+                        "https://www.scip.org/"
                     ],
-                    "mini_project": "Build a simple JavaScript application and implement XSS prevention techniques."
+                    "mini_project": "Set up a virtual lab environment for ethical hacking practice."
                 },
                 {
-                    "chapter_title": "React Security Considerations",
+                    "chapter_title": "Network Scanning and Reconnaissance",
                     "duration": "1 week",
-                    "description": "Learn about security vulnerabilities specific to React applications. Understand how to protect against XSS, data leaks, and other common issues.",
-                    "goal": "Develop secure React applications and identify potential vulnerabilities.",
+                    "description": "Learn about network scanning tools (Nmap, Nessus), reconnaissance techniques (whois, DNS enumeration), and how to gather information about target systems.",
+                    "goal": "Develop skills in network reconnaissance and identifying potential vulnerabilities.",
                     "resources": [
-                        "https://reactjs.org/blog/2018/03/29/react-security-best-practices.html",
-                        "https://www.owasp.org/index.php/Top_10_2017-Top_10#A1%3A_Broken_Access_Control",
-                        "https://www.amazon.com/React-Security-Best-Practices-Developers/dp/1789959788"
-                    ],
-                    "mini_project": "Build a secure React application that handles user authentication and data securely."
-                }
-            ]
-        },
-        {
-            "module": "Cybersecurity Tools and Technologies",
-            "chapters": [
-                {
-                    "chapter_title": "Network Monitoring Tools",
-                    "duration": "1 week",
-                    "description": "Explore network monitoring tools like Wireshark and tcpdump. Learn how to analyze network traffic, identify suspicious activity, and troubleshoot network issues.",
-                    "goal": "Use network monitoring tools to analyze traffic and identify potential threats.",
-                    "resources": [
-                        "https://www.wireshark.org/",
-                        "https://www.tcpdump.org/",
-                        "https://www.amazon.com/Wireshark-Network-Protocol-Analysis-Guide/dp/1484259377"
-                    ],
-                    "mini_project": "Capture and analyze network traffic using Wireshark to identify common protocols and potential vulnerabilities."
-                },
-                {
-                    "chapter_title": "Vulnerability Scanners",
-                    "duration": "1 week",
-                    "description": "Learn about vulnerability scanners like Nessus and OpenVAS. Understand how to perform vulnerability scans, interpret results, and remediate vulnerabilities.",
-                    "goal": "Use vulnerability scanners to identify security weaknesses in systems and applications.",
-                    "resources": [
+                        "https://nmap.org/",
                         "https://www.tenable.com/products/nessus",
-                        "https://www.openvas.org/",
-                        "https://www.amazon.com/Practical-Vulnerability-Scanning-Guide-Techniques/dp/149197937X"
+                        "https://www.youtube.com/watch?v=Kd2X5zLh7w8"
                     ],
-                    "mini_project": "Perform a basic vulnerability scan on a target system using a free vulnerability scanner and analyze the results."
+                    "mini_project": "Scan a test network for open ports and services using Nmap."
+                },
+                {
+                    "chapter_title": "Web Application Vulnerability Scanning",
+                    "duration": "1 week",
+                    "description": "Explore web vulnerability scanners (OWASP ZAP, Burp Suite), learn how to identify common vulnerabilities like XSS, SQL injection, and cross-site request forgery (CSRF).",
+                    "goal": "Gain proficiency in using web vulnerability scanners to identify and assess risks.",
+                    "resources": [
+                        "https://owasp.org/www-project-zap/",
+                        "https://portswigger.net/burp",
+                        "https://www.youtube.com/watch?v=Q8b0w2h0w5I"
+                    ],
+                    "mini_project": "Use a web vulnerability scanner to analyze a sample web application for vulnerabilities."
+                },
+                {
+                    "chapter_title": "Exploitation Techniques",
+                    "duration": "1 week",
+                    "description": "Learn about common exploitation techniques used by attackers, including buffer overflows, format string vulnerabilities, and denial-of-service (DoS) attacks. Understand how to prevent and mitigate these attacks.",
+                    "goal": "Gain a deeper understanding of how vulnerabilities are exploited and how to defend against them.",
+                    "resources": [
+                        "https://www.sans.org/cyber-security-courses/penetration-testing-and-ethical-hacking",
+                        "https://www.youtube.com/watch?v=F8673z2b0oE",
+                        "https://www.exploit-db.com/"
+                    ],
+                    "mini_project": "Research and document a specific vulnerability and its exploitation techniques."
                 }
             ]
         },
         {
-            "module": "Cybersecurity Certification Preparation",
+            "module": "React Security Best Practices",
             "chapters": [
                 {
-                    "chapter_title": "CompTIA Security+ Certification",
-                    "duration": "2 weeks",
-                    "description": "Focus on preparing for the CompTIA Security+ certification exam. Review key concepts, practice exam questions, and familiarize yourself with the exam format.",
-                    "goal": "Pass the CompTIA Security+ certification exam.",
+                    "chapter_title": "Secure Data Handling in React",
+                    "duration": "1 week",
+                    "description": "Learn how to securely handle user data, sensitive information, and API interactions in React applications. Understand data sanitization, input validation, and secure storage practices.",
+                    "goal": "Implement secure data handling practices in React applications.",
+                    "resources": [
+                        "https://reactjs.org/docs/security.html",
+                        "https://www.owasp.org/index.php/Top_10_2017-Top_10#A1_-_Broken_Access_Control",
+                        "https://www.youtube.com/watch?v=s67x6b7l2o8"
+                    ],
+                    "mini_project": "Build a simple React application that handles user registration, ensuring secure input validation and password hashing."
+                },
+                {
+                    "chapter_title": "Cross-Site Request Forgery (CSRF) Prevention",
+                    "duration": "1 week",
+                    "description": "Understand CSRF attacks and how to prevent them in React applications. Learn about anti-CSRF tokens, HTTP headers, and secure form handling.",
+                    "goal": "Implement measures to protect against CSRF attacks in React applications.",
+                    "resources": [
+                        "https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html",
+                        "https://www.youtube.com/watch?v=y_z253n0U-Q",
+                        "https://developer.mozilla.org/en-US/docs/Web/HTTP/CSRF_protection"
+                    ],
+                    "mini_project": "Modify your existing React application to incorporate CSRF protection mechanisms."
+                },
+                {
+                    "chapter_title": "Content Security Policy (CSP) in React",
+                    "duration": "1 week",
+                    "description": "Learn about CSP, how it works to prevent XSS attacks, and how to implement it in React applications. Understand different CSP directives and best practices.",
+                    "goal": "Implement CSP to enhance the security of your React applications.",
+                    "resources": [
+                        "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy",
+                        "https://www.owasp.org/index.php/Content_Security_Policy",
+                        "https://www.youtube.com/watch?v=V_3q8u76B8c"
+                    ],
+                    "mini_project": "Configure CSP headers for your React application to restrict inline scripts and other potentially harmful content."
+                },
+                {
+                    "chapter_title": "Secure Authentication in React",
+                    "duration": "1 week",
+                    "description": "Explore secure authentication methods for React applications, including JWT (JSON Web Tokens), OAuth, and API authentication. Learn about secure session management and token handling.",
+                    "goal": "Implement secure authentication mechanisms in your React applications.",
+                    "resources": [
+                        "https://jwt.io/",
+                        "https://oauth.net/",
+                        "https://www.youtube.com/watch?v=p1m_8L1W9Qo"
+                    ],
+                    "mini_project": "Integrate a simple authentication system (e.g., JWT) into your React application."
+                }
+            ]
+        },
+        {
+            "module": "Cybersecurity Certifications",
+            "chapters": [
+                {
+                    "chapter_title": "CompTIA Security+",
+                    "duration": "1 week",
+                    "description": "Overview of the CompTIA Security+ certification, its exam objectives, and study resources. Understand the value of this entry-level certification in the cybersecurity field.",
+                    "goal": "Gain knowledge about the CompTIA Security+ certification and its relevance to your career.",
                     "resources": [
                         "https://www.comptia.org/certifications/security",
-                        "https://www.amazon.com/CompTIA-Security-Exam-Study-Guide/dp/1119624531"
+                        "https://www.youtube.com/watch?v=z9kF58dQ7jE",
+                        "https://www.comptia.org/certifications/security/study-guide"
                     ],
-                    "mini_project": "Take practice exams for the CompTIA Security+ certification and analyze your strengths and weaknesses."
+                    "mini_project": "Create a study plan for the CompTIA Security+ certification exam."
+                },
+                {
+                    "chapter_title": "Certified Ethical Hacker (CEH)",
+                    "duration": "1 week",
+                    "description": "Explore the Certified Ethical Hacker (CEH) certification, its focus on penetration testing methodologies, and its value for aspiring ethical hackers.",
+                    "goal": "Understand the CEH certification and its relevance to your career path.",
+                    "resources": [
+                        "https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/",
+                        "https://www.youtube.com/watch?v=t97-lQ0Y7_8",
+                        "https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/ceh-study-guide/"
+                    ],
+                    "mini_project": "Research and identify specific CEH exam domains that align with your interests."
                 }
             ]
         }
